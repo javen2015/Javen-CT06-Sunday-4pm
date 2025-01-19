@@ -4,4 +4,4 @@ if Answer == "yes":
     Answer2 = input("Do you want to share with me anything else? Type yes or no.")
 elif Answer == "no":
     print("Dit")
-    sleep(1)
+    
