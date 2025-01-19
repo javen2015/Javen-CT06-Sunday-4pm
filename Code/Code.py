@@ -1,4 +1,4 @@
 Answer = input('Do you like never gonna give you up? Type yes or no.')
 if Answer == "yes":
     print("Okay")
-    Answer2 = input("Do you want to share with me ything else?")
+    Answer2 = input("Do you want to share with me anything else?")
