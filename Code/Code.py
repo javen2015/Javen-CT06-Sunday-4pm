@@ -6,4 +6,4 @@ elif Answer == "no":
     print("Dit")
     print("Dit")
     print("Dit")
-    print("Dit")
+    print("")
