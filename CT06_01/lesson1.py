@@ -116,7 +116,8 @@
 # print("2027")
 # print("2028")
 # print("2029")
-# print("2030")
+# print("2030")1
+1
 
 Red = 1
 Blue = 2
@@ -127,4 +128,4 @@ numBlue = input("How many blue plates did you eat? ")
 numGreen = input("How many green plates did you eat? ")
 userName = input("What is your name?")
 total = (Red * int(numRed)) + (Blue * int(numBlue)) + (Green * int(numGreen))
-print(userName + ", you owe us $ "+ str(total) + ". ")
+print(userName + ", you owe us $ "+ str(total) + ". 😏")
