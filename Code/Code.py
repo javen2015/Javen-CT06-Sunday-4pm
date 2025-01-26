@@ -13,4 +13,4 @@ elif Answer == "no":
         print("1")
         print("Boom!")
     else:
-        print("[ Snips]")
+        print("[ Snips of the line]")
