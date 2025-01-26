@@ -122,7 +122,7 @@ Red = 1
 Blue = 2
 Green = 3
 
-numRed= input("How many red plates did youa")
+numRed= input("How many red plates did you ")
 total = (Red * 3) + (Blue * 5) + (Green * 4)
 print("You have spent a total of $" + str(total))
 
