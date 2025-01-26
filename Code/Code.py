@@ -5,7 +5,7 @@ if Answer == "yes":
 elif Answer == "no":
     print("Dit")
     print("Dit")
-    answerConfirmed = input("")
+    answerConfirmed = input("Are you sure abot that?")
     print("Dit")
     print("3")
     print("2")
