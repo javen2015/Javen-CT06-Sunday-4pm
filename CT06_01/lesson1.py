@@ -1,7 +1,7 @@
-# print("Hello from lesson 1")
-print("Hello world")
-print("My favourite food is chicken rice")
-print("My brithday is on 9 April 2015")
+# # print("Hello from lesson 1")
+# print("Hello world")
+# print("My favourite food is chicken rice")
+# print("My brithday is on 9 April 2015")
 ######### The below is the code required for task 2a ##########
 # print("1")
 # print("2")
