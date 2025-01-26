@@ -125,6 +125,7 @@ Green = 3
 numRed = input("How many red plates did you eat? ")
 numBlue = input("How many blue plates did you eat? ")
 numGreen = input("How many green plates did you eat? ")
+user
 total = (Red * int(numRed)) + (Blue * int(numBlue)) + (Green * int(numGreen))
 print("You have spent a total of $" + str(total))
 
