@@ -12,6 +12,8 @@ elif Answer == "no":
         print("2")
         print("1")
         print("Boom!")
+        for i in (100):
+            
     else:
         print("[ Snips off the line ]")
         print("[ Bomb stops ]")
