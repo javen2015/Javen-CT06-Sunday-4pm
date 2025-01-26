@@ -5,7 +5,7 @@ if Answer == "yes":
 elif Answer == "no":
     print("Dit")
     print("Dit")
-    Ans
+    Answe
     print("Dit")
     print("3")
     print("2")
