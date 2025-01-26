@@ -5,9 +5,10 @@ if Answer == "yes":
 elif Answer == "no":
     print("Dit")
     print("Dit")
-    answerConfirmed = input("Are you sure about that?")
-    print("Dit")
-    print("3")
-    print("2")
-    print("1")
-    print("Boom!")
+    answerConfirmed = input("Are you sure about that? Type yes or no.")
+    if answerConfirmed == "yes":
+        print("Dit")
+        print("3")
+        print("2")
+        print("1")
+        print("Boom!")
