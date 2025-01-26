@@ -17,3 +17,5 @@ elif Answer == "no":
     else:
         print("[ Snips off the line ]")
         print("[ Bomb stops ]")
+
+         
