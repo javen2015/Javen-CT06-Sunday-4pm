@@ -125,4 +125,3 @@ Green = 3
 total = (Red * 3) + (Blue * 5) + (Green * 4)
 print(total)
 
-print("You have spent a total of $" + str(total))
