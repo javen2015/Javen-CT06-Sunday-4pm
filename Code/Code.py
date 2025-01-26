@@ -12,3 +12,5 @@ elif Answer == "no":
         print("2")
         print("1")
         print("Boom!")
+    else:
+        print("")
