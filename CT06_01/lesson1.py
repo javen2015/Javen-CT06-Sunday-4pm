@@ -117,3 +117,6 @@ print("My brithday is on 9 April 2015")
 # print("2028")
 # print("2029")
 # print("2030")
+
+Red = 1
+Blue
