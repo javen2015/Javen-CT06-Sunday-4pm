@@ -121,3 +121,5 @@ print("My brithday is on 9 April 2015")
 Red = 1
 Blue = 2
 Green = 3
+
+total = 
