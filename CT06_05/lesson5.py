@@ -20,7 +20,7 @@
 #     print(num)
 Stars = int(input('How many stars are there?'))
 num = 0
-spaces=0
+spaces=Stars
 
 for i in range(Stars):
     num=num+1
