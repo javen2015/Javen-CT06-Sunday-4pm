@@ -22,5 +22,6 @@ Stars = input('How many stars are there?')
 num = 0
 
 for i in range(10):
+    i = i + 1
     num=num+i
     print('*' * num)
