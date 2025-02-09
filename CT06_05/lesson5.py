@@ -11,5 +11,5 @@
 #     print('Happy',Age,'rd Birthday,',Name,'!',Message)
 # else:
 #     print('Happy',Age,'th Birthday,',Name,'!',Message)
-for i in range(1,101):
+for i in range(2):
         print("I like chicken rice.")
