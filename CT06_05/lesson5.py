@@ -2,7 +2,7 @@ Name = input('Who is the birthday person?')
 Age = int(input('How old will he or she be this year?'))
 Message = input('What is your personal message to him or her?')
 if Age == 11 or Age == 12:
-    print('Happy',Age,'st Birthday,',Name,'!',Message)
+    print('Happy',Age,'th Birthday,',Name,'!',Message)
 elif Age % 10 == 1 :
     print('Happy',Age,'st Birthday,',Name,'!',Message)
 elif Age % 10 == 2:
