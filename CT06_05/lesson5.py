@@ -6,4 +6,5 @@ if Age % 10 == 9 :
     print('Happy',Age,'st Birthday,',Name,'!',Message)
 elif Age % 10 == 8:
     print('Happy',Age,'nd Birthday,',Name,'!',Message)
-    
+elif Age % 10 == 7:
+    print('Happy',Age,'st Birthday,',Name,'!',Message)
