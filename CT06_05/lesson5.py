@@ -1,1 +1,1 @@
-Name = input('Who is ')
+Name = input('Who is the birthday person?')
