@@ -18,7 +18,7 @@
 # for i in range(0,10,1):
 #     num=num+i
 #     print(num)
-Sainput('How many stars are there?')
+Stars = input('How many stars are there?')
 for i in range(10):
     num=num+i
     print(num)
