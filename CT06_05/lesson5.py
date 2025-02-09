@@ -12,4 +12,5 @@ elif Age % 10 == 3:
 else:
     print('Happy',Age,'th Birthday,',Name,'!',Message)
 
-    for i in range(1,3)
+    for i in range(1,3):
+        print("I like chicken rice.")
