@@ -1,2 +1,2 @@
 Name = input('Who is the birthday person?')
-Age = input('What is', Name , '')
+Age = input('How old will ', Name , ' be this year?')
