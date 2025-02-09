@@ -15,4 +15,4 @@
 #         print("I like cake.")
 #         print("Give me more.")
 for i in range(0,10,2):
-    print()
+    print(i)
