@@ -22,7 +22,7 @@ Stars = int(input('How many rows stars are there?'))
 num = 0
 spaces=0
 
-for i in range(1,Stars + 1,2):
+for i in range(1,Stars,2):
     num=num+1
     spaces=spaces+1
     print(' '* spaces, '*' * num)
