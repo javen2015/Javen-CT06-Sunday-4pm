@@ -17,4 +17,4 @@
 num = 0
 for i in range(0,10,2):
     num=num+i
-    print()
+    print(num)
