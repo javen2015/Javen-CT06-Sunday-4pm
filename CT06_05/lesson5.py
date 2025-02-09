@@ -23,7 +23,7 @@ num = 0
 spaces=Stars-1
 
 for i in range(Stars):
-
+    num
     spaces=spaces+1
     print('*'* (Stars - i), '*' * num)
     num=num+2
