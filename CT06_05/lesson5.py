@@ -12,4 +12,4 @@
 # else:
 #     print('Happy',Age,'th Birthday,',Name,'!',Message)
 for i in range(100):
-        print("I like chicken rice.")
+        print("I like cake")
