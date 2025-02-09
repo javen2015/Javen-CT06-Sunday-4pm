@@ -20,9 +20,9 @@
 #     print(num)
 Stars = int(input('How many rows stars are there?'))
 num = 0
-spaces=Stars/2
+spaces=Stars
 
 for i in range(Stars):
     num=num+1
     spaces=spaces+1
-    print(''* spaces, '*' * num)
+    print(' '* spaces, '*' * num)
