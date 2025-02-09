@@ -15,6 +15,6 @@
 #         print("I like cake.")
 #         print("Give me more.")
 num = 0
-for i in range(0,10,2):
+for i in range(0,10,1):
     num=num+i
     print(num)
