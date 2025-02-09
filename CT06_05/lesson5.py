@@ -25,4 +25,4 @@ spaces=0
 for i in range(1,Stars,2):
     num=num+2
     spaces=spaces+1
-    print( '*' * i, '*'* spaces, '*' * i)
+    print( '*' * i, '*'+ spaces, '*' * i)
