@@ -23,4 +23,5 @@ num = 0
 
 for i in range(Stars):
     num=num+1
+    space=spaces+1
     print('*' * num)
