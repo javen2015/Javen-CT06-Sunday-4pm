@@ -18,7 +18,7 @@
 # for i in range(0,10,1):
 #     num=num+i
 #     print(num)
-Stars = int(input('How many stars are there?'))
+Stars = int(input('How many rows stars are there?'))
 num = 0
 spaces=Stars/2
 
