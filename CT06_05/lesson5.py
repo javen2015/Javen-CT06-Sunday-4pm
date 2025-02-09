@@ -11,3 +11,5 @@ elif Age % 10 == 3:
     print('Happy',Age,'rd Birthday,',Name,'!',Message)
 else:
     print('Happy',Age,'th Birthday,',Name,'!',Message)
+
+    for i in range(1,3)
