@@ -21,7 +21,7 @@
 Stars = int(input('How many rows stars are there?'))
 num = 0
 Space=Star-2
-spaces=tar-Star-2
+spaces=Star-Space
 
 for i in range(1,Stars,2):
     num=num+2
