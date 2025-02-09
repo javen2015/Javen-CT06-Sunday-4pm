@@ -19,11 +19,11 @@
 #     num=num+i
 #     print(num)
 Stars = int(input('How many rows stars are there?'))
-num = 0
+num = 1
 spaces=Stars-1
 
 for i in range(Stars):
-    num
+    num=num+2
     spaces=spaces+1
     print('*'* (Stars - i), '*' * num)
     num=num+2
