@@ -18,6 +18,7 @@
 # for i in range(0,10,1):
 #     num=num+i
 #     print(num)
+input()
 for i in range(10):
     num=num+i
     print(num)
