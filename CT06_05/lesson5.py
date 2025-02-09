@@ -9,4 +9,4 @@ elif Age % 10 == 8:
 elif Age % 10 == 7:
     print('Happy',Age,'rd Birthday,',Name,'!',Message)
 else:
-    print('Happy',Age,'st Birthday,',Name,'!',Message)
+    print('Happy',Age,'th Birthday,',Name,'!',Message)
