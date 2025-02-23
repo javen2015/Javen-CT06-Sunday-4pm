@@ -31,3 +31,68 @@ Times=input("How many times would you like to repeat?")
 
 for i in range(int(Times)):
     print("Nice to meet you,",Name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    What is number #1? <<5>>
+What is number #2? <<2>>
+What is number #3? <<4>>
+What is number #4? <<1>>
+What is number #5? <<7>>
