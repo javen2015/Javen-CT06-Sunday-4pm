@@ -31,7 +31,7 @@
 
 # for i in range(int(Times)):
 #     print("Nice to meet you,",Name)
-
+sum=0
 
 
 for i in range(1,6):
