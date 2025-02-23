@@ -116,4 +116,4 @@
 
 Number=int(input("What number for the timestable?"))
 for i in(12):
-    print(str(i+1),"x",str(Number),"=",str((i+1)*Number))
+    print(str(i+1),"x",str(Number),"=",str((i+1)*int(Number)))
