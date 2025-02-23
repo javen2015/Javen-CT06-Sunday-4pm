@@ -11,3 +11,6 @@
 # student_name = "Alex"
 
 # print("Average score for " + student_name + " is: " + str(average_score))
+
+for i in rnage(1,10):
+    print(i+1)
