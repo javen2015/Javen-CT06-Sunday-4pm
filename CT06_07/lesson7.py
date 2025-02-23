@@ -21,4 +21,4 @@
 # for i in range(10,0,-1):
 #     print(i)
 
-Word=input()
+Word=input("What word would you like to repeat?")
