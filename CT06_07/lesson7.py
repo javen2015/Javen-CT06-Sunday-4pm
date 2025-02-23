@@ -115,4 +115,4 @@ for i in range(int(Times)):
 
 Number=int(input("What number for the timestable?"))
 for i in(12):
-    print("")
+    print(str(i+1),"x")
