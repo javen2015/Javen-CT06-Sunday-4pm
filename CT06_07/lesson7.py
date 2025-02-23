@@ -35,7 +35,7 @@
 
 
 for i in range(1,6):
-    num=int(input("What is number #",str(i),"?"))
+    num=int(input("What is number #"+str(i)+"?"))
     sum=sum+num
 print("The sum of the numbers is", str(sum))
 
