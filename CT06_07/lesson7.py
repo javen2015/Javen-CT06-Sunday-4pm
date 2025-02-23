@@ -90,8 +90,7 @@ for i in range(int(Times)):
 
 
 
-
-    What is number #1? <<5>>
+no1What is number #1? <<5>>
 What is number #2? <<2>>
 What is number #3? <<4>>
 What is number #4? <<1>>
