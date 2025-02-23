@@ -21,7 +21,13 @@
 # for i in range(10,0,-1):
 #     print(i)
 
-Word=input("What word would you like to repeat?")
-Times=input("Ho many times would you like to repeat?")
+# Word=input("What word would you like to repeat?")
+# Times=input("Ho many times would you like to repeat?")
+# for i in range(int(Times)):
+#     print(Word)
+
+Name=input("What is your name?")
+Times=input("How many times would you like to repeat?")
+
 for i in range(int(Times)):
-    print(Word)
+    print("Nice to meet you,",Name)
