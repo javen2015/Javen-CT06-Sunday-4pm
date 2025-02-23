@@ -35,7 +35,7 @@
 
 
 for i in range(1,6):
-    num=int(input("What is number #",))
+    num=int(input("What is number #",+1))
 
 
 
