@@ -15,5 +15,5 @@
 for i in range(10):
     print(i+1)
 
-for i in range(2,21,1):
-    print()
+for i in range(2,21,2):
+    print(i+1)
