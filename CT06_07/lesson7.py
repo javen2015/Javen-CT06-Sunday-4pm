@@ -70,7 +70,7 @@
 # no3=input("What is number #3?")
 # no4=input("What is number #4?")
 # no5=input("What is number #5?")
-print("The sum of the numbers is", )
+print("The sum of the numbers is", str(no1+no2+no3+no4+no5))
 
 
 
