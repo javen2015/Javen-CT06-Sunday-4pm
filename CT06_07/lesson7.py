@@ -22,4 +22,5 @@
 #     print(i)
 
 Word=input("What word would you like to repeat?")
-Times=input
+Times=input("Ho many times would you like to repeat?")
+for
