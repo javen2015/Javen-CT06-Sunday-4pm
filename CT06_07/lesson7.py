@@ -31,13 +31,13 @@
 
 # for i in range(int(Times)):
 #     print("Nice to meet you,",Name)
-sum=0
+# sum=0
 
 
-for i in range(1,6):
-    num=int(input("What is number #"+str(i)+"?"))
-    sum=sum+num
-print("The sum of the numbers is", str(sum))
+# for i in range(1,6):
+#     num=int(input("What is number #"+str(i)+"?"))
+#     sum=sum+num
+# print("The sum of the numbers is", str(sum))
 
 
 
