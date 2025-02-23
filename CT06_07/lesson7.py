@@ -174,36 +174,9 @@
 
 
 
+# Stars = int(input('How many rows stars are there?'))
+# num = 1
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Stars = int(input('How many rows stars are there?'))
-num = 1
-
-for i in range(Stars):
-    print(str(i+1) * num)
-    num=num+1
+# for i in range(Stars):
+#     print(str(i+1) * num)
+#     num=num+1
