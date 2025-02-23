@@ -26,11 +26,11 @@
 # for i in range(int(Times)):
 #     print(Word)
 
-Name=input("What is your name?")
-Times=input("How many times would you like to repeat?")
+# Name=input("What is your name?")
+# Times=input("How many times would you like to repeat?")
 
-for i in range(int(Times)):
-    print("Nice to meet you,",Name)
+# for i in range(int(Times)):
+#     print("Nice to meet you,",Name)
 
 
 
