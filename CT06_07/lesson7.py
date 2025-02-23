@@ -114,6 +114,96 @@
 
 
 
-Number=int(input("What number for the timestable?"))
-for i in range(12):
-    print(str(i+1),"x",str(Number),"=",str((i+1)*int(Number)))
+# Number=int(input("What number for the timestable?"))
+# for i in range(12):
+#     print(str(i+1),"x",str(Number),"=",str((i+1)*int(Number)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Stars = int(input('How many rows stars are there?'))
+num = 1
+spaces=Stars-1
+
+for i in range(Stars):
+    num=num+2
+    spaces=spaces+1
+    print(' '* (Stars - i), '*' * num)
