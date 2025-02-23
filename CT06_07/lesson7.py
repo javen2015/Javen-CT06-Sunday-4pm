@@ -92,6 +92,6 @@ for i in range(int(Times)):
 
 no1=input("What is number #1?") 
 no2=input("What is number #2?")
-What is number #3?
+no3=input("What is number #3?")
 What is number #4? <<1>>
 What is number #5? <<7>>
