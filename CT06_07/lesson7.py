@@ -113,3 +113,4 @@ for i in range(int(Times)):
 
 
 
+Number=input
