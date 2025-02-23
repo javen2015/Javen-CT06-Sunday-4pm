@@ -113,4 +113,4 @@ for i in range(int(Times)):
 
 
 
-Number=input
+Number=int(input("What number for the timestable?"))
