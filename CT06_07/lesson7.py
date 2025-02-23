@@ -65,31 +65,6 @@ for i in range(int(Times)):
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 no1=input("What is number #1?") 
 no2=input("What is number #2?")
 no3=input("What is number #3?")
