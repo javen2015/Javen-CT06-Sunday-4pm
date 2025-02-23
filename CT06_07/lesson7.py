@@ -205,5 +205,5 @@ Stars = int(input('How many rows stars are there?'))
 num = 1
 
 for i in range(Stars):
-    print('*' * num)
+    print(str() * num)
     num=num+1
