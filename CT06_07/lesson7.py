@@ -23,4 +23,5 @@
 
 Word=input("What word would you like to repeat?")
 Times=input("Ho many times would you like to repeat?")
-for
+for i in range(int(Times)):
+    print(Word)
