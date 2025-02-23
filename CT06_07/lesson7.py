@@ -206,4 +206,4 @@ num = 1
 
 for i in range(Stars):
     print('*' * num)
-    
+    num=num+1
