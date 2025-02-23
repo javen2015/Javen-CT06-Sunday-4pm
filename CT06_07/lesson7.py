@@ -65,11 +65,11 @@
 
 
 
-# no1=input("What is number #1?") 
-# no2=input("What is number #2?")
-# no3=input("What is number #3?")
-# no4=input("What is number #4?")
-# no5=input("What is number #5?")
+no1=input("What is number #1?") 
+no2=input("What is number #2?")
+no3=input("What is number #3?")
+no4=input("What is number #4?")
+no5=input("What is number #5?")
 print("The sum of the numbers is", str(no1+no2+no3+no4+no5))
 
 
@@ -114,6 +114,6 @@ print("The sum of the numbers is", str(no1+no2+no3+no4+no5))
 
 
 
-Number=int(input("What number for the timestable?"))
-for i in(12):
-    print(str(i+1),"x",str(Number),"=",str((i+1)*Number))
+# Number=int(input("What number for the timestable?"))
+# for i in(12):
+#     print(str(i+1),"x",str(Number),"=",str((i+1)*Number))
