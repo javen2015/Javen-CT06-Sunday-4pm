@@ -36,5 +36,5 @@
 #Task 5 skipped
 #Task 6 skipped
 
-number=int(input("What is the number?"))
-print(number%2==0)
+# number=int(input("What is the number?"))
+# print(number%2==0)
