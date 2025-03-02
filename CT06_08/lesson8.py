@@ -1,8 +1,8 @@
-total=1
-for i in range(5):
-    Number=int(input("What is number #"+str(i+1)+"?"))
-    total=total*Number
-print("The product of the numbers is", str(total))
+# total=1
+# for i in range(5):
+#     Number=int(input("What is number #"+str(i+1)+"?"))
+#     total=total*Number
+# print("The product of the numbers is", str(total))
 
 
 
