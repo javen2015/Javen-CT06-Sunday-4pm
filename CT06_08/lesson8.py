@@ -24,4 +24,5 @@
 # booleans=True
 # print(booleans)
 
-bool1=Truebool2=True
+bool1=True
+bool2=True
