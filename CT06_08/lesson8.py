@@ -39,4 +39,4 @@
 # number=int(input("What is the number?"))
 # print(number%2==0)
 
-number1=int(input(""))
+number1=int(input("What is number 1?"))
