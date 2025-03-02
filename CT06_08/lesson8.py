@@ -26,17 +26,17 @@
 #     time.sleep(1)
 #     print(i)
 
-import time
-countingdownnumber=int(input("What number do you want to count down from?"))
-minuteorsecond=input("Is it minute or second? Type minute or second.")
-if minuteorsecond == "minute":
-    for i in range(countingdownnumber,0,-1):
-        time.sleep(60)
-        print(i)
-else:
-    for i in range(countingdownnumber,0,-1):
-        time.sleep(1)
-        print(i)
+# import time
+# countingdownnumber=int(input("What number do you want to count down from?"))
+# minuteorsecond=input("Is it minute or second? Type minute or second.")
+# if minuteorsecond == "minute":
+#     for i in range(countingdownnumber,0,-1):
+#         time.sleep(60)
+#         print(i)
+# else:
+#     for i in range(countingdownnumber,0,-1):
+#         time.sleep(1)
+#         print(i)
 
 
 
