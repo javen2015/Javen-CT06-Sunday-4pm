@@ -27,8 +27,8 @@
 #     print(i)
 
 import time
-countdownnumber=int(input("What number do you want to count down from?"))
-for i in range(countdownnumber,0,-1):
+countingdownnumber=int(input("What number do you want to count down from?"))
+for i in range(countingdownnumber,0,-1):
     time.sleep(1)
     print(i)
 
