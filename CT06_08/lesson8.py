@@ -35,3 +35,5 @@
 #Task 4 skipped
 #Task 5 skipped
 #Task 6 skipped
+
+number=int(input("What is y"))
