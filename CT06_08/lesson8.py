@@ -21,5 +21,6 @@
 # for i in range(20):
 #     print(random.random(0,9999))
 
-booleans=True
-print(booleans)
+# booleans=True
+# print(booleans)
+
