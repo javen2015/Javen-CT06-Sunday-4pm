@@ -28,7 +28,7 @@
 
 import time
 countingdownnumber=int(input("What number do you want to count down from?"))
-minuteorsecond=input("Is it minute or second? Type True for minute an False for second.")
+minuteorsecond=input("Is it minute or second? Type minute an False for econd.")
 if minuteorsecond:
     for i in range(countingdownnumber,0,-1):
         time.sleep(60)
