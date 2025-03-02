@@ -37,3 +37,4 @@
 #Task 6 skipped
 
 number=int(input("What is the number?"))
+if number % 2 == 0
