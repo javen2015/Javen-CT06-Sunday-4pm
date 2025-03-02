@@ -28,10 +28,12 @@
 
 import time
 countingdownnumber=int(input("What number do you want to count down from?"))
-minuteorsecond=input("Is it  ")
-for i in range(countingdownnumber,0,-1):
-    time.sleep(60)
-    print(i)
+minuteorsecond=input("Is it minute or second? Type True for minute an False for second")
+if minuteorsecond:
+    for i in range(countingdownnumber,0,-1):
+        time.sleep(60)
+        print(i)
+
 
 
 # import random
