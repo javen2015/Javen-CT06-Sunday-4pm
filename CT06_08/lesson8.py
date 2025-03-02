@@ -65,7 +65,7 @@
 #     print(True)
 # else:
 #     print(False)
-#Task 5 skipped
+
 #Task 6 skipped
 
 # number=int(input("What is the number?"))
