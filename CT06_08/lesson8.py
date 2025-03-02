@@ -22,3 +22,4 @@
 #     print(random.random(0,9999))
 
 booleans=True
+print(booleans)
