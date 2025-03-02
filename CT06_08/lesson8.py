@@ -18,4 +18,4 @@
 #     print(i)
 
 import random
-print(random(0))
+print(random(0,20))
