@@ -17,4 +17,4 @@ print("The product of the numbers is", str(total))
 #     print(i)
 
 import random
-print(random(0,20))
+print(random(0,6))
