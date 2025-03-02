@@ -61,7 +61,7 @@ import random
 
 no1=random.randint(0,50)
 no2=random.randint(0,50)
-useranswer=int(input("What is "))
+useranswer=int(input("What is ", str(no1),))
 #Task 5 skipped
 #Task 6 skipped
 
