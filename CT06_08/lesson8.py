@@ -35,7 +35,7 @@ if minuteorsecond:
         print(i)
 else:
     for i in range(countingdownnumber,0,-1):
-        time.sleep(60)
+        time.sleep(1)
         print(i)
 
 
