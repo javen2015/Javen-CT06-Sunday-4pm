@@ -28,6 +28,6 @@ print("The product of the numbers is", str(total))
 # bool2=True
 # print(bool1==bool2)
 
-# boolean1=True
-# boolean2=False
-# print(bool1==bool2)
+boolean1=True
+boolean2=False
+print(bool1==bool2)
