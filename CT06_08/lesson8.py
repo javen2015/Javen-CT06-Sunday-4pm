@@ -1,8 +1,8 @@
-total=0
-for i in range(5):
-    Number=input("What is number "+str(i+1)+"?")
-    total=total*Number
-print("The product of the numbers is", str(total))
+# total=0
+# for i in range(5):
+#     Number=input("What is number "+str(i+1)+"?")
+#     total=total*Number
+# print("The product of the numbers is", str(total))
 
 
 
@@ -18,3 +18,5 @@ print("The product of the numbers is", str(total))
 
 import random
 print(random(0,6))
+for i in range(20):
+    print(random(0,9999))
