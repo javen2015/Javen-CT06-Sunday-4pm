@@ -26,4 +26,4 @@
 
 bool1=True
 bool2=True
-print(bool==bool)
+print(bool1==bool2)
