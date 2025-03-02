@@ -36,4 +36,4 @@
 #Task 5 skipped
 #Task 6 skipped
 
-number=int(input("What is y"))
+number=int(input("What is the number?"))
