@@ -17,6 +17,6 @@
 #     print(i)
 
 import random
-print(random(0,6))
+print(random.random(0,6))
 for i in range(20):
-    print(random(0,9999))
+    print(random.random(0,9999))
