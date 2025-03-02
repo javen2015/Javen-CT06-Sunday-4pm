@@ -75,10 +75,10 @@
 #     print(False)
 
 import random
-no1=random.randint(0,50)
-no2=random.randint(0,50)
-useranswer=int(input("What is "+ str(no1)+" * "+ str(no2)+"?"))
-if useranswer==no1+no2:
+no1=random.randint(0,10)
+no2=random.randint(0,10)
+useranswer=int(input("What is "+ str(no1)+" x "+ str(no2)+"?"))
+if useranswer==no1*no2:
     print(True)
 else:
     print(False)
