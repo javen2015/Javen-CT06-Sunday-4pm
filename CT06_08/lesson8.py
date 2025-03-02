@@ -67,8 +67,8 @@
 #     print(False)
 
 import random
-guess=random.randint(0,50)
-num1=random.randint(0,50)
+guess=int
+num1=random.randint(0,10)
 if guess==num1:
     print(True)
 else:
