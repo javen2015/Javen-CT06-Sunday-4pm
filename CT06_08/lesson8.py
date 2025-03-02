@@ -74,17 +74,17 @@
 # else:
 #     print(False)
 
-import random
+# import random
 
-questions=int(input("How many questions do you want to attempt?"))
-for i in range(questions):
-    no1=random.randint(0,10)
-    no2=random.randint(0,10)
-    useranswer=int(input("What is "+ str(no1)+" x "+ str(no2)+"?"))
-    if useranswer==no1*no2:
-        print(True)
-    else:
-        print(False)
+# questions=int(input("How many questions do you want to attempt?"))
+# for i in range(questions):
+#     no1=random.randint(0,10)
+#     no2=random.randint(0,10)
+#     useranswer=int(input("What is "+ str(no1)+" x "+ str(no2)+"?"))
+#     if useranswer==no1*no2:
+#         print(True)
+#     else:
+#         print(False)
 
 # number=int(input("What is the number?"))
 # print(number%2==0)
