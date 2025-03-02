@@ -69,8 +69,7 @@
 import random
 guess=random.randint(0,50)
 num1=random.randint(0,50)
-useranswer=int(input("What is "+ str(no1)+" + "+ str(no2)+"?"))
-if useranswer==no1+no2:
+if guess==num1:
     print(True)
 else:
     print(False)
