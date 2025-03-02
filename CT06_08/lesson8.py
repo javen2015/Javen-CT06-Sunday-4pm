@@ -39,6 +39,7 @@
 # number=int(input("What is the number?"))
 # print(number%2==0)
 
-number1=int(input("What is number 1?"))
-number2=int(input("What is number 2?"))
-print(number1%number2==0)
+# number1=int(input("What is number 1?"))
+# number2=int(input("What is number 2?"))
+# print(number1%number2==0)
+
