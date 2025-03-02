@@ -13,5 +13,7 @@ print("The product of the numbers is", str(no1*no2*no3*no4*no5))
 
 
 import time
-
+for i in range(10):
+    time.sleep(1)
+    
 
