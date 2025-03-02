@@ -38,14 +38,11 @@
 #         time.sleep(1)
 #         print(i)
 
-import random
 
-random.random()
-random.randint()
 
 
 # import random
-# print(random.random(0,6))
+# print(random.randint(0,6))
 # for i in range(20):
 #     print(random.random(0,9999))
 
