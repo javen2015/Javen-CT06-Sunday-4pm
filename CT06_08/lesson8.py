@@ -28,6 +28,7 @@
 
 import time
 countingdownnumber=int(input("What number do you want to count down from?"))
+minuteorsecond=input
 for i in range(countingdownnumber,0,-1):
     time.sleep(60)
     print(i)
