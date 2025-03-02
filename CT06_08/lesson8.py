@@ -1,4 +1,4 @@
-# total=0
+# total=1
 # for i in range(5):
 #     Number=input("What is number #"+str(i+1)+"?")
 #     total=total*Number
