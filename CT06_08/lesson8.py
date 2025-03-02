@@ -66,14 +66,14 @@
 # else:
 #     print(False)
 
-import random
-guess=int(input("Guess a number."))
-num1=random.randint(0,10)
-if guess==num1:
-    print(True)
-else:
-    print(False)
-#Task 6 skipped
+# import random
+# guess=int(input("Guess a number."))
+# num1=random.randint(0,10)
+# if guess==num1:
+#     print(True)
+# else:
+#     print(False)
+
 
 # number=int(input("What is the number?"))
 # print(number%2==0)
