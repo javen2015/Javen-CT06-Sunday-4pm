@@ -59,7 +59,8 @@
 
 import random
 
-
+#1
+#2
 #Task 5 skipped
 #Task 6 skipped
 
