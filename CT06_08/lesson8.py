@@ -59,8 +59,8 @@
 
 import random
 
-#1
-#2
+no1=random.randint(0,50)
+no2=rano
 #Task 5 skipped
 #Task 6 skipped
 
