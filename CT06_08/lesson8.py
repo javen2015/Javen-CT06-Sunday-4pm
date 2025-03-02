@@ -57,7 +57,7 @@
 # boolean2=False
 # print(boolean1==boolean2)
 
-
+import random
 #Task 5 skipped
 #Task 6 skipped
 
