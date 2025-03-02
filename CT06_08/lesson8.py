@@ -60,7 +60,8 @@
 import random
 
 no1=random.randint(0,50)
-no2=rano
+no2=random.randint(0,50)
+
 #Task 5 skipped
 #Task 6 skipped
 
