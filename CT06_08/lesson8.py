@@ -33,6 +33,11 @@ if minuteorsecond:
     for i in range(countingdownnumber,0,-1):
         time.sleep(60)
         print(i)
+else:
+    for i in range(countingdownnumber,0,-1):
+        time.sleep(60)
+        print(i)
+
 
 
 
