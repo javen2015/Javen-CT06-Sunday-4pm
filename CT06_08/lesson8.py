@@ -1,5 +1,5 @@
 for i in range(5):
-    input()
+    Number=input()
 print("The product of the numbers is", str(Number1*Number2*Number3*Number4*Number5))
 
 
