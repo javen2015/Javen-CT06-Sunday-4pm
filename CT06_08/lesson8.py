@@ -30,4 +30,4 @@ print("The product of the numbers is", str(total))
 
 boolean1=True
 boolean2=False
-print(bool1==bool2)
+print(boolean1==bool2)
