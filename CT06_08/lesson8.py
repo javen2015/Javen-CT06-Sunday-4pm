@@ -26,3 +26,4 @@
 
 bool1=True
 bool2=True
+print(bool==bool)
