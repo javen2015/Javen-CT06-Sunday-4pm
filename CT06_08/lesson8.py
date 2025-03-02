@@ -29,5 +29,5 @@ print("The product of the numbers is", str(total))
 # print(bool1==bool2)
 
 # bool1=True
-# bool2=True
+# bool2=False
 # print(bool1==bool2)
