@@ -2,7 +2,7 @@ total=0
 for i in range(5):
     Number=input("What is number "+str(i+1)+"?")
     total=total*Number
-print("The product of the numbers is", str(Number1*Number2*Number3*Number4*Number5))
+print("The product of the numbers is", str(total))
 
 
 
