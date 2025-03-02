@@ -41,10 +41,10 @@
 
 
 
-# import random
-# print(random.randint(0,6))
-# for i in range(20):
-#     print(random.random(0,9999))
+import random
+print(random.randint(0,6))
+for i in range(20):
+    print(random.randint(0,9999))
 
 # booleans=True
 # print(booleans)
