@@ -18,3 +18,4 @@
 #     print(i)
 
 import random
+print(random(0))
