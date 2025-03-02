@@ -38,7 +38,10 @@
 #         time.sleep(1)
 #         print(i)
 
+import random
 
+random.random()
+random.randint()
 
 
 # import random
