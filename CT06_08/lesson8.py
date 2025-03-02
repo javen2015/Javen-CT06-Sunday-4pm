@@ -28,6 +28,6 @@
 # bool2=True
 # print(bool1==bool2)
 
-bool1=True
+# bool1=True
 # bool2=True
 # print(bool1==bool2)
