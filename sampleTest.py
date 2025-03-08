@@ -8,7 +8,8 @@ if expressbusservicestaken == "yes":
 if distancetravelled > 3.2:
     Fare=Fare+0.99
     while compare < distancetravelled:
-        compare=compare+3  
+        compare=compare+3 
+        compare2=co
         Fare=Fare+0.10
 else:
     print(Fare)
