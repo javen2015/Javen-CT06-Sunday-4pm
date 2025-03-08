@@ -1,4 +1,5 @@
-a=3
+a=3*0.10
+b=3*0.08
 Fare=0
 compare=0.3
 compare2=3.2
