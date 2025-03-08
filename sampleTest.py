@@ -1,0 +1,1 @@
+distancetravelled=int(input(""))
