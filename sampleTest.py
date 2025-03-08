@@ -1,5 +1,6 @@
 Fare=0
 compare=0.3
+compare2=3.2
 distancetravelled=int(input("How much distance have you travelled (km)?"))
 expressbusservicestaken=input("Have you taken any express bus services? Type yes or no.")
 if expressbusservicestaken == "yes":
