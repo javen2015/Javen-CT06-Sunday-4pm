@@ -4,4 +4,4 @@ expressbusservicestaken=input("Have you taken any express bus services? Type yes
 if expressbusservicestaken == "yes":
     Fare=Fare+0.60
 if distancetravelled > 3.3 and distancetravelled < 6.2:
-    Fare=Fare
+    km=distancetravelled%3
