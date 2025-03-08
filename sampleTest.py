@@ -1,1 +1,1 @@
-distancetravelled=int(input("How many distance Travelled (km)"))
+distancetravelled=int(input("How much distance T\ravelled (km)"))
