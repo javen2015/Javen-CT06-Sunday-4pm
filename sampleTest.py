@@ -9,7 +9,7 @@ if distancetravelled > 3.2:
     Fare=Fare+0.99
     while compare < distancetravelled:
         compare=compare+3 
-        compare2=co
+        compare2=compare2+3
         Fare=Fare+0.10
 else:
     print(Fare)
