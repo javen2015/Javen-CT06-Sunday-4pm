@@ -1,2 +1,2 @@
 distancetravelled=int(input("How much distance have you travelled (km)?"))
-expressbusservicestaken=in
+expressbusservicestaken=input("Have you taken any")
