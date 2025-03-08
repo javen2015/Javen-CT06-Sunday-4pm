@@ -5,3 +5,4 @@ if expressbusservicestaken == "yes":
     Fare=Fare+0.60
 if distancetravelled > 3.3 and distancetravelled < 6.2:
     km=distancetravelled%3
+    
