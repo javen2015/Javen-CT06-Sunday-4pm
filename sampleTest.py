@@ -11,6 +11,6 @@ if distancetravelled > 3.2:
         compare=compare+3 
         compare2=compare2+3
         Fare=Fare+(compare-compare2)*3
-    
+    print(Fare)
 else:
     print(Fare)
