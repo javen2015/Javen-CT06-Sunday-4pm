@@ -20,7 +20,7 @@ temperature=int(input("What is your temperature?"))
 cough=input("Do you have cough?")
 running_nose=input("Do you have a running nose?")
 sore_throat=input("Do you have a sore throat?")
-if temperature > 37:
+if temperature > 38:
     print("Please go and see a doctor")
 elif cough == "yes":
     print("Please go and see a doctor")
