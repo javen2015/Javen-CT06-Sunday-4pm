@@ -18,3 +18,4 @@
 
 temperature=int(input("What is your temperature?"))
 cough=input("Do you have cough?")
+running_nose=
