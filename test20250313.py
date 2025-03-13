@@ -16,5 +16,5 @@
 # You may assume that the user will type in either “yes” or “no” 
 # for the subsequent questions.
 
-temperature=int(input("What i"))
+temperature=int(input("What is your temperature?"))
 cough=input("Do you have cough?")
