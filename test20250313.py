@@ -23,4 +23,8 @@ sore_throat=input("Do you have a sore throat?")
 if temperature > 37:
     print("Please go and see a doctor")
 elif cough == "yes":
-    
+    print("Please go and see a doctor")
+elif running_nose=="yes":
+    print("Please go and see a doctor")
+else:
+    print()
