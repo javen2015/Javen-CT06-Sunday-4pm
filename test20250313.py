@@ -53,3 +53,4 @@
 # Subsequent 14 (- 1st km) km travelled: $0.25 × (14 - 1) = $3.25
 # Waiting time of 5 minutes: $0.33 × 5 = $1.65
 # Total fare: $3.90 + $3.25 + $1.65 = $8.80
+
