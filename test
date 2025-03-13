@@ -1,0 +1,79 @@
+# Function to deposit money into the account
+def deposit(balance, amount):
+    if amount > 0:
+        balance += amount
+        print(f"Deposited: ${amount:.2f}")
+    else:
+        print("Deposit amount must be positive.")
+    return balance
+
+# Function to withdraw money from the account
+def withdraw(balance, amount):
+    if amount > 0 and amount <= balance:
+        balance -= amount
+        print(f"Withdrawn: ${amount:.2f}")
+    elif amount <= 0:
+        print("Withdrawal amount must be positive.")
+    else:
+        print("Insufficient balance!")
+    return balance
+
+# Function to apply interest to the balance
+def apply_interest(balance, months):
+    if months > 0:
+        interest = balance * 0.05 * months
+        balance += interest
+        print(f"Applied interest for {months} month(s): ${interest:.2f}")
+    else:
+        print("Number of months must be positive.")
+    return balance
+
+# Function to print the account balance
+def print_account_summary(balance):
+    print(f"Your current balance is: ${balance:.2f}")
+
+# Main function to handle the user interface
+def main():
+    name = input("Enter your name to open an account: ")
+    balance = 0.0  # Initial balance is $0
+    
+    print(f"\nWelcome {name}, your account has been created successfully!")
+    
+    while True:
+        # Display the menu
+        print("\n--- Bank Account Menu ---")
+        print("1. Deposit Money")
+        print("2. Withdraw Money")
+        print("3. Check Balance")
+        print("4. Apply Interest")
+        print("5. Exit")
+        
+        choice = input("Select an option (1-5): ")
+        
+        if choice == '1':
+            amount = float(input("Enter amount to deposit: $"))
+            balance = deposit(balance, amount)
+            print_account_summary(balance)
+        
+        elif choice == '2':
+            amount = float(input("Enter amount to withdraw: $"))
+            balance = withdraw(balance, amount)
+            print_account_summary(balance)
+        
+        elif choice == '3':
+            print_account_summary(balance)
+        
+        elif choice == '4':
+            months = int(input("Enter the number of months to apply interest: "))
+            balance = apply_interest(balance, months)
+            print_account_summary(balance)
+        
+        elif choice == '5':
+            print("Exiting the program. Goodbye!")
+            break
+        
+        else:
+            print("Invalid choice, please try again.")
+
+if __name__ == "__main__":
+    main()
