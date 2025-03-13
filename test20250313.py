@@ -16,4 +16,5 @@
 # You may assume that the user will type in either “yes” or “no” 
 # for the subsequent questions.
 
-Cough=input("Do you have cough?")
+Temper
+cough=input("Do you have cough?")
