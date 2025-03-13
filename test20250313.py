@@ -54,4 +54,4 @@
 # Waiting time of 5 minutes: $0.33 × 5 = $1.65
 # Total fare: $3.90 + $3.25 + $1.65 = $8.80
 
-metresTravelled=input("How many")
+metresTravelled=input("How many metres have you travelled?")
