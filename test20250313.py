@@ -27,4 +27,4 @@ elif cough == "yes":
 elif running_nose=="yes":
     print("Please go and see a doctor")
 else:
-    print()
+    print("Please come into the class")
