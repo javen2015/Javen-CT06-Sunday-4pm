@@ -16,4 +16,4 @@
 # You may assume that the user will type in either “yes” or “no” 
 # for the subsequent questions.
 
-Coug
+Cough=input("Do you have cough")
