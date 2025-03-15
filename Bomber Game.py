@@ -21,4 +21,5 @@ for i in range(1):
     print("8 ---------")
     print("9 ---------")
     print("")
-    answer=input("Whatg position do you wan t")
+    
+    answer=input("Whatg position do you want to move to?")
