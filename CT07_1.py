@@ -12,8 +12,8 @@
 #     print("True")
 # else:
 #     print("False")
-
-if name.isalnum:#alphabetrs and numbers
+password=input("What is your name?")
+if password.isalnum:#alphabetrs and numbers
     print("True")
 else:
     print("False")
