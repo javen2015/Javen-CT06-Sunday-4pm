@@ -52,5 +52,5 @@
 # print("BruhBruh"[3:1:-1])
 
 sentence="Hello World"
-sentence.split("")
-print()
+sentence.split(" ")
+print(sentence)
