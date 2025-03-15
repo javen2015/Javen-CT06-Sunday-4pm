@@ -26,12 +26,12 @@
 # len(list)
 
 
-password=input("What is your password?")
-hasUpper=not(password.islower())
-hasLower=not(password.isupper())
-hasNum=not(password.isalpha())
+# password=input("What is your password?")
+# hasUpper=not(password.islower())
+# hasLower=not(password.isupper())
+# hasNum=not(password.isalpha())
 
-if password.isalnum() and len(password)>7 and hasUpper and hasLower and hasNum:
-    print("True")
-else:
-    print("False")
+# if password.isalnum() and len(password)>7 and hasUpper and hasLower and hasNum:
+#     print("True")
+# else:
+#     print("False")
