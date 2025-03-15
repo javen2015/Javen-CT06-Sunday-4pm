@@ -27,4 +27,4 @@
 
 
 password=input("What is your password?")
-hasUpper=not5(password.lower)
+hasUpper=not5(password.islower())
