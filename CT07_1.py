@@ -42,5 +42,5 @@ for char in name:
     if case:
         output+=char.upper()
     else:
-        char.lower()
-print(char)
+        output+=char.lower()
+print(output)
