@@ -30,8 +30,8 @@ while True:
     # playerPosition=answer-1
     # grid[playerPosition]="Y"
     bombSquare=random.randint(0,80)
+    grid[playerPosition]="B"
     if bombSquare==playerPosition:
-        grid[playerPosition]="B"
         print("Boom! Game over! You Lost!")
         break
     
