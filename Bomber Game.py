@@ -24,7 +24,7 @@ while True:
     print("9 ---------")
     print("##########################################################################################################################################################################################################")
     for i in range(80):
-    print(grid[0]+"\n"+grid[1]+"\n"+grid[2]+"\n"+grid[3]+"\n"+grid[4]+"\n"+grid[5]+"\n"+grid[6]+"\n"+grid[7]+"\n"+grid[8])
+        print(grid[0]+"\n")
     print("")
     answer=int(input("What position do you want to move to?"))
     grid[playerPosition]="-"
