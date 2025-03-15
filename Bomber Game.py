@@ -27,4 +27,5 @@ for i in range(1):
     answer=int(input("What position do you want to move to?"))
     grid[playerPosition]="-"
     playerPosition=answer-1
-    grid[playerPosition]
+    grid[playerPosition]="Y"
+    
