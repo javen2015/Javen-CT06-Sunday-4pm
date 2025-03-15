@@ -31,7 +31,7 @@ hasUpper=not(password.islower())
 hasLower=not(password.isupper())
 hasNum=not(password.isalpha())
 
-if (password.isalnumalnum() and len(password)>7 and hasUpper and hasLower and hasNum):
+if password.isalnum() and len(password)>7 and hasUpper and hasLower and hasNum:
     print("True")
 else:
     print("False")
