@@ -8,7 +8,7 @@ if name.isalpha:
     print("True")
 else:
     print("False")
-if name.isalpha:
+if name.isnumeric:
     print("True")
 else:
     print("False")
