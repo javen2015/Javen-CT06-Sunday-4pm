@@ -4,11 +4,11 @@
 
 
 name=input("What is your name?")
-if name.isalpha:
+if name.isalpha:#alphabet
     print("True")
 else:
     print("False")
-if name.isnumeric:
+if name.isnumeric:#n
     print("True")
 else:
     print("False")
