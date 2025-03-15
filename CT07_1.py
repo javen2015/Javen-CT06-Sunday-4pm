@@ -12,6 +12,10 @@
 #     print("True")
 # else:
 #     print("False")
+# if name.isnumeric:#numbers
+#     print("True")
+# else:
+#     print("False")
 password=input("What is your password?")
 hasDigit=password.isdigit()
 if password.isupper() and password.islower() and password.isdigit()==False and password.isalpha()==False and password.isalnum() and len(password)>7:
