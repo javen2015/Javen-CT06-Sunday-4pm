@@ -32,3 +32,4 @@ for i in range(1):
     bombSquare=random.randint(0,80)
     if bombSquare==playerPosition:
         grid[playerPosition]="B"
+        print("Boom")
