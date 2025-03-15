@@ -16,8 +16,8 @@ password=input("What is your password?")
 hasUpper=password.isupper()
 hasLower=password.islower()
 hasDigit=password.isdigit()
-print(hasDigit)
-if hasUpper==False and hasLower==False and password.isdigit==False and password.isalpha==False and password.isalnum() and len(password)>7:#alphabets and numbers
+if hasUpper==False and hasLower==False and password.isdigit
+==False and password.isalpha==False and password.isalnum() and len(password)>7:#alphabets and numbers
     print("True")
 else:
     print("False")
