@@ -8,7 +8,7 @@ if name.isalpha:#alphabet
     print("True")
 else:
     print("False")
-if name.isnumeric:#n
+if name.isnumeric:#numbers
     print("True")
 else:
     print("False")
