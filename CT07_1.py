@@ -35,5 +35,4 @@
 #     print("True")
 # else:
 #     print("False")
-
-input
+name=input()
