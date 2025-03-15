@@ -34,3 +34,4 @@ while True:
         grid[playerPosition]="B"
         print("Boom! Game over! You Lost!")
         break
+    
