@@ -37,3 +37,7 @@
 #     print("False")
 name=input()
 case=True
+for char in name:
+    if case:
+        char.upper
+    else:
