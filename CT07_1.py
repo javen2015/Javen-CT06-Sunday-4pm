@@ -3,3 +3,4 @@
 # print(list[1:3]) #list[start(inclusive):end(exclusive(-1))]
 
 
+name=input("")
