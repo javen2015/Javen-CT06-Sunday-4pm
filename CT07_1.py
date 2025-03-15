@@ -48,3 +48,5 @@
 #         output+=char.lower()
 #         case=True
 # print(output)
+
+print()
