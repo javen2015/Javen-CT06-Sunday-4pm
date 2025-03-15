@@ -29,4 +29,5 @@ for i in range(1):
     grid[playerPosition]="-"
     playerPosition=answer-1
     grid[playerPosition]="Y"
-    bombSquare=random.randint(0,80)
+    while bombSquare == playerPosition:
+        bombSquare=random.randint(0,80)
