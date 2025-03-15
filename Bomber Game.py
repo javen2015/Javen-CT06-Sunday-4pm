@@ -30,5 +30,5 @@ for i in range(1):
     playerPosition=answer-1
     grid[playerPosition]="Y"
     bombSquare=random.randint(0,80)
-    
+    if bombSquare==playerPosition:
     
