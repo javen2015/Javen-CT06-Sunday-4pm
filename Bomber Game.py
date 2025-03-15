@@ -21,4 +21,4 @@ for i in range(1):
     print("8 ---------")
     print("9 ---------")
     print("")
-    answer=input()
+    answer=input("W")
