@@ -40,8 +40,8 @@ name=input()
 case=True
 for char in name:
     if case:
-        char.upper
+        char.upper()
         
     else:
-        char.lower
+        char.lower()
 print(char)
