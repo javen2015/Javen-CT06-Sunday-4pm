@@ -24,5 +24,6 @@ for i in range(1):
     print("##########################################################################################################################################################################################################")
     print(grid[0]+"\n"+grid[1]+"\n"+grid[2]+"\n"+grid[3]+"\n"+grid[4]+"\n"+grid[5]+"\n"+grid[6]+"\n"+grid[7]+"\n"+grid[8])
     print("")
-    answer=input("What position do you want to move to?")
-    grid[playerPosition]=""
+    answer=int(input("What position do you want to move to?"))
+    grid[playerPosition]="-"
+    playerPosition=answer-1
