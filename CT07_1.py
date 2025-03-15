@@ -29,4 +29,4 @@
 password=input("What is your password?")
 hasUpper=not(password.islower())
 hasLower=not(password.isupper())
-hasNum=not(password.isupper())
+hasNum=not(password.isalpha())
