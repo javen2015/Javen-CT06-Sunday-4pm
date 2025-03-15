@@ -37,14 +37,14 @@
 #     print("False")
 
 
-output=""
-name=input()
-case=True
-for char in name:
-    if case:
-        output+=char.upper()
-        case=False
-    else:
-        output+=char.lower()
-        case=True
-print(output)
+# output=""
+# name=input()
+# case=True
+# for char in name:
+#     if case:
+#         output+=char.upper()
+#         case=False
+#     else:
+#         output+=char.lower()
+#         case=True
+# print(output)
