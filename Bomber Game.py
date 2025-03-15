@@ -7,7 +7,7 @@ grid=["Y - - - - - - - -",
 "- - - - - - - - -",
 "- - - - - - - - -",
 "- - - - - - - - -"]
-playerPosition=1
+playerPosition=0
 spacesLeft=80
 for i in range(1):
     print("##########################################################################################################################################################################################################")
@@ -25,3 +25,5 @@ for i in range(1):
     print(grid[0]+"\n"+grid[1]+"\n"+grid[2]+"\n"+grid[3]+"\n"+grid[4]+"\n"+grid[5]+"\n"+grid[6]+"\n"+grid[7]+"\n"+grid[8])
     print("")
     answer=input("What position do you want to move to?")
+    playerPosition=answer-1
+    grid[]
