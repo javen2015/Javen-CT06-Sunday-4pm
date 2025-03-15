@@ -41,3 +41,5 @@ for char in name:
     if case:
         char.upper
     else:
+        char.lower
+print(char)
