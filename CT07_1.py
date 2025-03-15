@@ -16,12 +16,11 @@
 #     print("True")
 # else:
 #     print("False")
-password=input("What is your password?")
-hasDigit=password.isdigit()
-if password.isupper()==False and password.islower() and password.isdigit()==False and password.isalpha()==False and password.isnumeric()==False and len(password)>7:
-    print("True")
-else:
-    print("False")
+# hasDigit=password.isdigit()
+# if password.isupper()==False and password.islower() and password.isdigit()==False and password.isalpha()==False and password.isnumeric()==False and len(password)>7:
+#     print("True")
+# else:
+#     print("False")
 
 
 # len(list)
