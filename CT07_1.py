@@ -58,4 +58,4 @@ sentence="Hello World"
 # reversedsentence+=splitsentence[0][::-1]
 # joinedsentence=("").join(reversedsentence)
 # print(joinedsentence)
-print(sentence.reverse)
+print(sentence.reversed())
