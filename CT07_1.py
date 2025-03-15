@@ -36,3 +36,4 @@
 # else:
 #     print("False")
 name=input()
+case=True
