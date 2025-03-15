@@ -49,4 +49,4 @@
 #         case=True
 # print(output)
 
-print()
+print("Bruh9")
