@@ -29,7 +29,7 @@ def display_grid(player_position, bombs):
     # Print the grid
     for row in grid:
         print(" ".join(row))
-    print("-" * 20)
+    print("#" * 20)
 
 # Function to run the game loop
 def play_game():
