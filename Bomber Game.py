@@ -7,6 +7,7 @@ grid=["Y - - - - - - - -",
 "- - - - - - - - -",
 "- - - - - - - - -",
 "- - - - - - - - -"]
+import random
 playerPosition=0
 spacesLeft=80
 for i in range(1):
@@ -28,4 +29,4 @@ for i in range(1):
     grid[playerPosition]="-"
     playerPosition=answer-1
     grid[playerPosition]="Y"
-    
+    bombSquare=random.randint
