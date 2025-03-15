@@ -53,5 +53,85 @@
 # Subsequent 14 (- 1st km) km travelled: $0.25 × (14 - 1) = $3.25
 # Waiting time of 5 minutes: $0.33 × 5 = $1.65
 # Total fare: $3.90 + $3.25 + $1.65 = $8.80
+# fare=0
+# metresTravelled=int(input("How many metres have you travelled?"))
+# waitingTime=int(input("How long have you waited?"))
+# if metresTravelled > 0:
+#     fare+=3.90
+#     metresTravelled-=1
+#     fare+=0.25*metresTravelled
+# if waitingTime > 0:
+#     fare+=0.33*waitingTime
+# print("The total fare is $"+str(round(fare,2)))
 
-metresTravelled=input("How many metres have you travelled?")
+
+
+
+####################################################################
+# A hero goes on an adventure, starting at Full Health. 
+# He has to fight monsters and clear obstacles in his adventure. 
+# Sometimes, he takes damage while fighting these monsters.
+
+# Write a PYTHON program that simulates the battles he fought 
+# until his health reaches 0. Print out the number of battles 
+# that he fought at the end of the program.
+
+# Your hero must start with 100 health
+# Print into the console "Hero starts on his adventure with Health: 100"
+
+# Your hero loses between 1 to 15 health (randomly) each round.
+# Update the console using "After fighting monsters, his Health is now: xx", 
+# where "xx" is your hero's current Health
+
+# Repeat until your hero's Health is less than or equals to 0
+# Print "He fought xxx battles, and died", 
+# where "xxx" is the number of rounds it took to reach 0 Health.
+
+# import random
+# heroHealth=100
+# battles=0
+# print("Hero starts on his adventure with Health: 100")
+# while heroHealth > 0:
+#     heroHealth-=random.randint(1,15)
+#     print("After fighting monsters, his Health is now:"+str(heroHealth))
+#     battles+=1
+# print("He fought "+str(battles)+" battles, and died")
+
+
+##################################################
+# Write a PYTHON program that simulates a restaurant order system using list and while loop.
+
+# Using a while loop to create a forever loop, 
+# your program should ask the user "What would you like to order?", 
+# store the user's response in a list, before asking the user the question again.
+
+# The program must continuously ask the user for their order until the user enters "end".
+
+# Upon ending the loop, the program will list out all of the user's orders. 
+
+"""
+Test Case 1
+What would you like to order? Burger
+What would you like to order? Coke
+What would you like to order? Fries
+What would you like to order? end
+
+
+Output:
+You have ordered the following:
+1. Burger
+2. Coke
+3. Fries
+"""
+
+
+orderedfood=""
+fooditems=[]
+while True:
+    orderedfood=input("What would you like to order?")
+    if orderedfood =="end":
+        break
+    fooditems.append(orderedfood)
+
+for i in range(len(fooditems)):
+    print(str(i+1)+". "+fooditems[i])
