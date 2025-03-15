@@ -20,4 +20,4 @@ for i in range(1):
     print("7 ---------")
     print("8 ---------")
     print("9 ---------")
-    print
+    print("\n")
