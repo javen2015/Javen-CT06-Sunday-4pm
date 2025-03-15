@@ -51,7 +51,7 @@
 
 # print("BruhBruh"[3:1:-1])
 
-sentence="Hello World"
+# sentence="Hello World"
 # splitsentence=sentence.split(" ")
 # reversedsentence=splitsentence[1][::-1]
 # reversedsentence+=" "
