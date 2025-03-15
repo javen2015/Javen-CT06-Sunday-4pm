@@ -41,7 +41,7 @@ case=True
 for char in name:
     if case:
         char.upper()
-        
+        output+=char
     else:
         char.lower()
 print(char)
