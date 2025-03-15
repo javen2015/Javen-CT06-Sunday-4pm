@@ -53,6 +53,7 @@
 
 sentence="Hello World"
 (" ").split(sentence)
-sentence[::-1]
+sentence[0][::-1]
+sentence[1][::-1]
 (" ").join(sentence)
 print(sentence)
