@@ -12,7 +12,7 @@
 #     print("True")
 # else:
 #     print("False")
-password=input("What is your name?")
+password=input("What is your password?")
 hasUpper=password.isupper()
 hasLower=password.islower()
 hasDigit=password.isdigit()
