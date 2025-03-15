@@ -29,4 +29,4 @@ for i in range(1):
     grid[playerPosition]="-"
     playerPosition=answer-1
     grid[playerPosition]="Y"
-    bombSquare=random.randint
+    bombSquare=random.randint(0,81)
