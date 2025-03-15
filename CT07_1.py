@@ -52,9 +52,9 @@
 # print("BruhBruh"[3:1:-1])
 
 sentence="Hello World"
-splitsentence=sentence.split(" ")
-reversedsentence=splitsentence[1][::-1]
-reversedsentence+=" "
-reversedsentence+=splitsentence[0][::-1]
-joinedsentence=("").join(reversedsentence)
-print(joinedsentence)
+# splitsentence=sentence.split(" ")
+# reversedsentence=splitsentence[1][::-1]
+# reversedsentence+=" "
+# reversedsentence+=splitsentence[0][::-1]
+# joinedsentence=("").join(reversedsentence)
+# print(joinedsentence)*
