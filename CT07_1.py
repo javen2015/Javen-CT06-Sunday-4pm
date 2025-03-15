@@ -52,7 +52,7 @@
 # print("BruhBruh"[3:1:-1])
 
 sentence="Hello World"
-(" ").split(sentence)
+(sentence).split(" ")
 sentence[0][::-1]
 sentence[1][::-1]
 (" ").join(sentence)
