@@ -13,7 +13,7 @@
 # else:
 #     print("False")
 password=input("What is your name?")
-if password.isalnum and len():#alphabets and numbers
+if password.isalnum and len(password)==8 and has:#alphabets and numbers
     print("True")
 else:
     print("False")
