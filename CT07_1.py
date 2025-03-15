@@ -12,7 +12,7 @@
 #     print("True")
 # else:
 #     print("False")
-# if name.isnumeric:#numbers
+# if name.isnumeric:#alphabets and numbers
 #     print("True")
 # else:
 #     print("False")
