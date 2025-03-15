@@ -13,10 +13,8 @@
 # else:
 #     print("False")
 password=input("What is your password?")
-hasUpper=password.isupper()
-hasLower=password.islower()
 hasDigit=password.isdigit()
-if hasUpper==False and hasLower==False and password.isdigit()==False and password.isalpha()==False and password.isalnum() and len(password)>7:#alphabets and numbers
+if password.isupper() and password.islower() and password.isdigit()==False and password.isalpha()==False and password.isalnum() and len(password)>7:#alphabets and numbers
     print("True")
 else:
     print("False")
