@@ -12,3 +12,7 @@ if name.isnumeric:
     print("True")
 else:
     print("False")
+if name.isalnum:
+    print("True")
+else:
+    print("False")
