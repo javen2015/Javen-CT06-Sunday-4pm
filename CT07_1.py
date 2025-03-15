@@ -35,6 +35,7 @@
 #     print("True")
 # else:
 #     print("False")
+output=""
 name=input()
 case=True
 for char in name:
