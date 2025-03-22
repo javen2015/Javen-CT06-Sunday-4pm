@@ -68,8 +68,9 @@ print(reversedsentence)
 
 
 
-ui=input()
-ui.split()
+ui=input())
+reversedui=ui[::-1]
+print(reversedui)
 
 
 
