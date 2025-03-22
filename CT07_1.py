@@ -183,7 +183,6 @@ def a():
         passwordlist.append(p)
         passwordlist.append(w)
         fullPasswordList.append(passwordlist)
-        print(fullPasswordList)
 fullPasswordList=[]
 passwordlist=[]
 while True:
