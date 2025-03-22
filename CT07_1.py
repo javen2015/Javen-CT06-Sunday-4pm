@@ -180,5 +180,5 @@ while True:
     def a():
         n=input("Username")
         p=input("Password")
-        w
+        w=input("Website")
         passwordlist.append()
