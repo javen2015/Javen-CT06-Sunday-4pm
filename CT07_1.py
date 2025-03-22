@@ -26,6 +26,8 @@
 # len(list)
 
 
+
+
 # password=input("What is your password?")
 # hasUpper=not(password.islower())
 # hasLower=not(password.isupper())
@@ -57,3 +59,17 @@ reversedsentence=splitsentence[0][::-1]
 reversedsentence+=" "
 reversedsentence+=splitsentence[1][::-1]
 print(reversedsentence)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
