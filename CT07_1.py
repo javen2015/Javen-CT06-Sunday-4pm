@@ -81,8 +81,9 @@ splitui=str(ui).split(" ")
 for i in range(len(splitui)):
     reversedui=str(splitui)[::-1]  
     if reversedui==str(ui):
+        print(True)
         break
-print(output) 
+ 
 
 
 
