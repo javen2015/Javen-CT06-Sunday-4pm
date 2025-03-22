@@ -156,10 +156,13 @@
 # print(highestSellingFruit[2])
 
 
-["Apple",50,1.99],
+sales_data=["Apple",50,1.99],
 ["Banana",40,0.99],
 ["Orange",30,2.99],
 ["]Grapefruit",25,4.99],
 ["Mange",20,3.99]
 price=[]
 top3=[]
+
+for item in sales_data:
+    prcie
