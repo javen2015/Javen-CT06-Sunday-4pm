@@ -70,7 +70,8 @@
 
 ui=input()
 reversedui=ui[::-1]
-output=reversedui
+output=reversedui==ui
+print(output)
 
 
 
