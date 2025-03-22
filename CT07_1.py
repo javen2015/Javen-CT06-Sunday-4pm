@@ -177,4 +177,4 @@
 passwordlist=[]
 ui=input("Enter a s d or q")
 def a():
-    passwordlist.append
+    passwordlist.append()
