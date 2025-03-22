@@ -7,5 +7,5 @@ for i in range(100):
         heads+=1
     else:
         tails+=1
-print("Heads: "+strheads)
-print("Tails: "+tails)
+print("Heads: "+str(heads))
+print("Tails: "+str(tails))
