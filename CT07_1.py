@@ -166,6 +166,7 @@ top3=[]
 
 for item in sales_data:
     price.append(item[1]*item[2])
+print(price)
 for i in range(3):
     highest=max(price)
     index_of_highest=price.index(highest)
