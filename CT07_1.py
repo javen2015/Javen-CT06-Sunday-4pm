@@ -68,7 +68,7 @@
 
 
 
-ui=input()
+ui=1331
 reversedui=ui[::-1]
 output=reversedui==ui
 print(output)
