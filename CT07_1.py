@@ -98,4 +98,4 @@ sales_data=[
 
 price=[]
 for i in range(len(sales_data)):
-    price.append(sales_data[i][2]+srsales_data[i][1]*sales_data[i][2])
+    price.append(sales_data[i][2]+str(sales_data[i][1]*sales_data[i][2]))
