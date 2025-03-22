@@ -175,7 +175,7 @@ for i in range(3):
     top3.append(index_of_highest)
     price[index_of_highest] = 0
 print(top3)
-print("Top 1 fruit: " + str(sales_data[top3[0]][0][1]))
+print("Top 1 fruit: " + str(sales_data[top3[0]][0] + [1]))
 print("Top 2 fruit: " + str(sales_data[top3[1]][0][1]))
 print("Top 3 fruit: " + str(sales_data[top3[2]][0][1]))
 
