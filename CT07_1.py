@@ -156,21 +156,21 @@
 # print(highestSellingFruit[2])
 
 
-sales_data=["Apple",50,1.99],
-["Banana",40,0.99],
-["Orange",30,2.99],
-["Grapefruit",25,4.99],
-["Mange",20,3.99]
-price=[]
-top3=[]
+# sales_data=["Apple",50,1.99],
+# ["Banana",40,0.99],
+# ["Orange",30,2.99],
+# ["Grapefruit",25,4.99],
+# ["Mange",20,3.99]
+# price=[]
+# top3=[]
 
-for item in sales_data:
-    price.append(item[1]*item[2])
-for i in range(3):
-    highest=max(price)
-    index_of_highest=price.index(highest)
-    top3.append(index_of_highest)
-    price[index_of_highest]
-print("Top 1 fruit: " + str(sales_data[top3[0]][1]))
-print("Top 2 fruit: " + str(sales_data[top3[1]][1]))
-print("Top 3 fruit: " + str(sales_data[top3[2]][1]))
+# for item in sales_data:
+#     price.append(item[1]*item[2])
+# for i in range(3):
+#     highest=max(price)
+#     index_of_highest=price.index(highest)
+#     top3.append(index_of_highest)
+#     price[index_of_highest]
+# print("Top 1 fruit: " + str(sales_data[top3[0]][1]))
+# print("Top 2 fruit: " + str(sales_data[top3[1]][1]))
+# print("Top 3 fruit: " + str(sales_data[top3[2]][1]))
