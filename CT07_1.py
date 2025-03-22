@@ -181,6 +181,7 @@ def a():
         w=input("Website")
         passwordlist.append(n,p,w)
         fullPasswordList.append(passwordlist)
+        
 fullPasswordList=[]
 passwordlist=[]
 while True:
