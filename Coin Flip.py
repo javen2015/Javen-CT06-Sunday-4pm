@@ -9,4 +9,4 @@ for i in range(100):
 #         tails+=1
 # print("Heads: "+str(heads))
 # print("Tails: "+str(tails))
-    prit=
+    print(number)
