@@ -182,4 +182,4 @@ while True:
         n=input("Username")
         p=input("Password")
         w=input("Website")
-        fullPasswordListPasswordlist.append()
+        fullPasswordList.append()
