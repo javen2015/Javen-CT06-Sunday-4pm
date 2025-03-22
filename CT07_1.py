@@ -153,4 +153,4 @@ highestSellingFruit.append("1. "+str(sales_data[fruit]))
 sales_data.remove[fruit]
 print(highestSellingFruit[0])
 print(highestSellingFruit[1])
-print(highestSellingFruit)
+print(highestSellingFruit[2])
