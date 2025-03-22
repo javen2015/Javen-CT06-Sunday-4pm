@@ -87,7 +87,7 @@
 #     print("False")
 # else:
 #     print("True "+str(counter))
-
+highestSellingFruit=[]
 sales_data=[
     ["Apple",50,1.99],
     ["Banana",40,0.99],
