@@ -115,6 +115,7 @@ elif max(price)=="Grapefruit":
 else:
     speech+="1. Mango"+str(max(price))
     fruit=4
+highestSellingFruit.append()
 sales_data.remove[fruit]
 if max(price)=="Apple":
     speech+="1. Apple"+str(max(price))
