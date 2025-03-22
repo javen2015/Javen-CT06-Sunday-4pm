@@ -68,7 +68,7 @@ print(reversedsentence)
 
 
 
-
+input=input()
 
 
 
