@@ -85,7 +85,7 @@ for i in range(len(splitui)):
 if counter==0:
     print("False")
 else:
-    print("True")
+    print("True"+str(counter))
 
  
 
