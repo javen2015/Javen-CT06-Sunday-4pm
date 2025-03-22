@@ -102,10 +102,10 @@ for i in range(len(sales_data)):
     price.append(sales_data[i][2]+sales_data[i][1]*sales_data[i][2])
 if max(price)=="Apple":
     speech+="1. Apple"+str(max(price))
-    fruit="Apple"
+    fruit=0
 elif max(price)=="Banana":
     speech+="1. Banana"+str(max(price))
-    fruit="Banana"
+    fruit=
 elif max(price)=="Orange":
     speech+="1. Orange"+str(max(price))
     fruit="Orange"
