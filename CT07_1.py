@@ -88,6 +88,15 @@
 # else:
 #     print("True "+str(counter))
 
+sales_data=[
+    ["Apple",50,1.99],
+    ["Banana",40,0.99],
+    ["Orange",30,2.99],
+    ["Grapefruit",25,4.99],
+    ["Mange",20,3.99]
+]
+
+price=[]
 for i in range(len(sales_data)):
     price=sales_data[i][2]
 
