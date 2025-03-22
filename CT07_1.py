@@ -131,5 +131,5 @@ elif max(price)=="Grapefruit":
 else:
     speech+="1. Mango"+str(max(price))
     fruit=4
-sales_data.remove
+sales_data.remove[fruit]
 
