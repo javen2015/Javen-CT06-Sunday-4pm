@@ -75,7 +75,7 @@
 #     output=reversedui==str(ui)
 #     print(output) 
 
-
+output=False
 ui=input()
 splitui=str(ui).split(" ")
 for i in range(len(splitui)):
@@ -84,7 +84,9 @@ for i in range(len(splitui)):
         print(True)
         output=True
         break
+if output!=True:
     
+
  
 
 
