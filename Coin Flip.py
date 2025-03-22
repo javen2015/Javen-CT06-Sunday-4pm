@@ -5,7 +5,7 @@ for i in range(100):
     number=random.randint(0,1)
     if number == "0":
         heads+=1
-    else:
+    elif number=="1":
         tails+=1
 print("Heads: "+str(heads))
 print("Tails: "+str(tails))
