@@ -161,3 +161,5 @@
 ["Orange",30,2.99],
 ["]Grapefruit",25,4.99],
 ["Mange",20,3.99]
+price=[]
+top3=[]
