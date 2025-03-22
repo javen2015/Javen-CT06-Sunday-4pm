@@ -1,2 +1,2 @@
 import random
-number=random.randint()
+number=random.randint(0,9)
