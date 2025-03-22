@@ -87,70 +87,70 @@
 #     print("False")
 # else:
 #     print("True "+str(counter))
-highestSellingFruit=[]
-sales_data=[
-    ["Apple",50,1.99],
-    ["Banana",40,0.99],
-    ["Orange",30,2.99],
-    ["Grapefruit",25,4.99],
-    ["Mange",20,3.99]
-]
-fruit=""
-speech=""
-price=[]
-for i in range(len(sales_data)):
-    price.append(sales_data[i][2]+sales_data[i][1]*sales_data[i][2])
-if max(price)=="Apple":
-    speech+="1. Apple"+str(max(price))
-    fruit=0
-elif max(price)=="Banana":
-    speech+="1. Banana"+str(max(price))
-    fruit=1
-elif max(price)=="Orange":
-    speech+="1. Orange"+str(max(price))
-    fruit=2
-elif max(price)=="Grapefruit":
-    speech+="1. Grapefruit"+str(max(price))
-    fruit=3
-else:
-    speech+="1. Mango"+str(max(price))
-    fruit=4
-highestSellingFruit.append("1. "+str(sales_data[fruit]))
-sales_data.pop(fruit)
-if max(price)=="Apple":
-    speech+="1. Apple"+str(max(price))
-    fruit=0
-elif max(price)=="Banana":
-    speech+="1. Banana"+str(max(price))
-    fruit=1
-elif max(price)=="Orange":
-    speech+="1. Orange"+str(max(price))
-    fruit=2
-elif max(price)=="Grapefruit":
-    speech+="1. Grapefruit"+str(max(price))
-    fruit=3
-else:
-    speech+="1. Mango"+str(max(price))
-    fruit=4
-highestSellingFruit.append("2. "+str(sales_data[fruit]))
-sales_data.pop(fruit)
-if max(price)=="Apple":
-    speech+="1. Apple"+str(max(price))
-    fruit=0
-elif max(price)=="Banana":
-    speech+="1. Banana"+str(max(price))
-    fruit=1
-elif max(price)=="Orange":
-    speech+="1. Orange"+str(max(price))
-    fruit=2
-elif max(price)=="Grapefruit":
-    speech+="1. Grapefruit"+str(max(price))
-    fruit=3
-else:
-    speech+="1. Mango"+str(max(price))
-    fruit=4
-highestSellingFruit.append("3. "+str(sales_data[fruit]))
-sales_data.pop(fruit)
-print(highestSellingFruit[0])
-print(highestSellingFruit[1])
-print(highestSellingFruit[2])
+# highestSellingFruit=[]
+# sales_data=[
+#     ["Apple",50,1.99],
+#     ["Banana",40,0.99],
+#     ["Orange",30,2.99],
+#     ["Grapefruit",25,4.99],
+#     ["Mange",20,3.99]
+# ]
+# fruit=""
+# speech=""
+# price=[]
+# for i in range(len(sales_data)):
+#     price.append(sales_data[i][2]+sales_data[i][1]*sales_data[i][2])
+# if max(price)=="Apple":
+#     speech+="1. Apple"+str(max(price))
+#     fruit=0
+# elif max(price)=="Banana":
+#     speech+="1. Banana"+str(max(price))
+#     fruit=1
+# elif max(price)=="Orange":
+#     speech+="1. Orange"+str(max(price))
+#     fruit=2
+# elif max(price)=="Grapefruit":
+#     speech+="1. Grapefruit"+str(max(price))
+#     fruit=3
+# else:
+#     speech+="1. Mango"+str(max(price))
+#     fruit=4
+# highestSellingFruit.append("1. "+str(sales_data[fruit]))
+# sales_data.pop(fruit)
+# if max(price)=="Apple":
+#     speech+="1. Apple"+str(max(price))
+#     fruit=0
+# elif max(price)=="Banana":
+#     speech+="1. Banana"+str(max(price))
+#     fruit=1
+# elif max(price)=="Orange":
+#     speech+="1. Orange"+str(max(price))
+#     fruit=2
+# elif max(price)=="Grapefruit":
+#     speech+="1. Grapefruit"+str(max(price))
+#     fruit=3
+# else:
+#     speech+="1. Mango"+str(max(price))
+#     fruit=4
+# highestSellingFruit.append("2. "+str(sales_data[fruit]))
+# sales_data.pop(fruit)
+# if max(price)=="Apple":
+#     speech+="1. Apple"+str(max(price))
+#     fruit=0
+# elif max(price)=="Banana":
+#     speech+="1. Banana"+str(max(price))
+#     fruit=1
+# elif max(price)=="Orange":
+#     speech+="1. Orange"+str(max(price))
+#     fruit=2
+# elif max(price)=="Grapefruit":
+#     speech+="1. Grapefruit"+str(max(price))
+#     fruit=3
+# else:
+#     speech+="1. Mango"+str(max(price))
+#     fruit=4
+# highestSellingFruit.append("3. "+str(sales_data[fruit]))
+# sales_data.pop(fruit)
+# print(highestSellingFruit[0])
+# print(highestSellingFruit[1])
+# print(highestSellingFruit[2])
