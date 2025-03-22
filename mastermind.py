@@ -5,4 +5,5 @@ for i in range(4):
     mastermindnumber[i]=number
 guess=input("Guess the number with each number seperated by a space.")
 guessindividual=guess.split(" ")
-print(guessindividual)
+if guessindividual[0]==mastermindnumber[0]:
+    guessindividual
