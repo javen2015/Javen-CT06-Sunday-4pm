@@ -99,4 +99,3 @@ sales_data=[
 price=[]
 for i in range(len(sales_data)):
     price=sales_data[i][2]
-
