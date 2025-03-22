@@ -1,1 +1,1 @@
-import rnad
+import random
