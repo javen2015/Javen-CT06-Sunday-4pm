@@ -79,7 +79,7 @@
 ui=input()
 splitui=str(ui).split(" ")
 for i in range(len(splitui)):
-    reversedui=str(splitui[])[::-1]  
+    reversedui=str(splitui[i])[::-1]  
     if reversedui==str(ui):
         print(True)
         break
