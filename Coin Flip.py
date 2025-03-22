@@ -7,3 +7,5 @@ for i in range(100):
         heads+=1
     else:
         tails+=1
+print(heads)
+print(tails)
