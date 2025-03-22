@@ -74,16 +74,15 @@
 #     reversedui=str(ui)[::-1]  
 #     output=reversedui==str(ui)
 #     print(output) 
-
+counter=0
 output=False
 ui=input()
 splitui=str(ui).split(" ")
 for i in range(len(splitui)):
     reversedui=str(splitui[i])[::-1]  
     if reversedui==str(ui):
-        print("True")
         output=True
-        counter
+        counter+=1
 if output!=True:
     print("False")
 
