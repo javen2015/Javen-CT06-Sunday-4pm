@@ -117,20 +117,3 @@ else:
     fruit=4
 highestSellingFruit.append("1. "+str(sales_data[fruit]))
 sales_data.remove[fruit]
-if max(price)=="Apple":
-    speech+="1. Apple"+str(max(price))
-    fruit=0
-elif max(price)=="Banana":
-    speech+="1. Banana"+str(max(price))
-    fruit=1
-elif max(price)=="Orange":
-    speech+="1. Orange"+str(max(price))
-    fruit=2
-elif max(price)=="Grapefruit":
-    speech+="1. Grapefruit"+str(max(price))
-    fruit=3
-else:
-    speech+="1. Mango"+str(max(price))
-    fruit=4
-sales_data.remove[fruit]
-
