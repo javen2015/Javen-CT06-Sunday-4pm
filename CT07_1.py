@@ -53,12 +53,12 @@
 
 # print("BruhBruh"[3:1:-1])
 
-sentence="Hello World"
-splitsentence=sentence.split(" ")
-reversedsentence=splitsentence[0][::-1]
-reversedsentence+=" "
-reversedsentence+=splitsentence[1][::-1]
-print(reversedsentence)
+# sentence="Hello World"
+# splitsentence=sentence.split(" ")
+# reversedsentence=splitsentence[0][::-1]
+# reversedsentence+=" "
+# reversedsentence+=splitsentence[1][::-1]
+# print(reversedsentence)
 
 
 
@@ -68,7 +68,7 @@ print(reversedsentence)
 
 
 
-ui=input())
+ui=input()
 reversedui=ui[::-1]
 print(reversedui)
 
