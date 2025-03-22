@@ -6,4 +6,5 @@ while not mastermindnumber[1]==mastermindnumber[2] and not mastermindnumber[2]==
         number=random.randint(0,9)
         mastermindnumber.append(number)
     print(mastermindnumber)
-    counter
+    counter+=1
+print(counter)
