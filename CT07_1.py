@@ -165,4 +165,5 @@ price=[]
 top3=[]
 
 for item in sales_data:
-    price.append(item[1])
+    price.append(item[1]*item[2])
+    
