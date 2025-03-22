@@ -83,7 +83,7 @@ for i in range(len(splitui)):
     if reversedui==str(ui):
         output=True
         counter+=1
-if output!=True:
+if counter==0:
     print("False")
 
  
