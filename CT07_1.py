@@ -70,7 +70,6 @@
 
 ui=input()
 reversedui=ui[::-1]
-print(reversedui)
 
 
 
