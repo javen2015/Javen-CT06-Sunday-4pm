@@ -67,13 +67,20 @@
 
 
 
-while True:
-    ui=input()
-    if ui == "end":
-        break
-    reversedui=str(ui)[::-1]  
-    output=reversedui==str(ui)
-    print(output) 
+# while True:
+#     ui=input()
+#     if ui == "end":
+#         break
+#     reversedui=str(ui)[::-1]  
+#     output=reversedui==str(ui)
+#     print(output) 
+
+
+ui=input()
+
+reversedui=str(ui)[::-1]  
+output=reversedui==str(ui)
+print(output) 
 
 
 
