@@ -7,5 +7,4 @@ for i in range(4):
     mastermindnumber[i]=number
 print(mastermindnumber)
 counter+=1
-result = all(x == mastermindnumber[0] for x in mastermindnumber)
 print(counter)
