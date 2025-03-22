@@ -111,7 +111,8 @@ elif max(price)=="Orange":
     fruit="Orange"
 elif max(price)=="Grapefruit":
     speech+="1. Grapefruit"+str(max(price))
-    fruit
+    fruit="Grapefruit"
 else:
     speech+="1. Mango"+str(max(price))
+    
 
