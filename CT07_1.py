@@ -178,5 +178,5 @@ passwordlist=[]
 while True:
     ui=input("Enter a s d or q")
     def a():
-        
+        username=input()
         passwordlist.append()
