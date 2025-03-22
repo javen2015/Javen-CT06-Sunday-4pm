@@ -168,3 +168,4 @@ for item in sales_data:
     price.append(item[1]*item[2])
 for i in range(3):
     highest=max(price)
+    index_of_highest=price
