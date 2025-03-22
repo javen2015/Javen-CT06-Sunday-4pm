@@ -102,4 +102,4 @@ for i in range(len(sales_data)):
     price.append(sales_data[i][2]+sales_data[i][1]*sales_data[i][2])
 highestPrice=max(price)
 if max(price)=="Apple":
-    print("")
+    speech+="1. Apple"
