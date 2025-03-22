@@ -8,4 +8,4 @@ for i in range(100):
     else:
         tails+=1
 print("Heads: "+heads)
-print(tails)
+print("Tails: "+tails)
