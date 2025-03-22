@@ -96,6 +96,7 @@ sales_data=[
     ["Mange",20,3.99]
 ]
 
+speech=""
 price=[]
 for i in range(len(sales_data)):
     price.append(sales_data[i][2]+sales_data[i][1]*sales_data[i][2])
