@@ -8,5 +8,5 @@ while result == all(x == mastermindnumber[0] for x in mastermindnumber):
         mastermindnumber[i]=number
     print(mastermindnumber)
     counter+=1
-    result = all(x == mastermindnumber[0] for x in a)
+    result = all(x == mastermindnumber[0] for x in mastermindnumber)
 print(counter)
