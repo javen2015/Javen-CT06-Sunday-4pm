@@ -68,7 +68,8 @@ print(reversedsentence)
 
 
 
-input=input()
+ui=input()
+
 
 
 
