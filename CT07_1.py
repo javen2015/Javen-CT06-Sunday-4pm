@@ -175,4 +175,4 @@
 # print("Top 2 fruit: " + str(sales_data[top3[1]][1]))
 # print("Top 3 fruit: " + str(sales_data[top3[2]][1]))
 
-Enr
+ui=input("Enter a s d or q")
