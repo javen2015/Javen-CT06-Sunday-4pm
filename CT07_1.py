@@ -185,4 +185,4 @@ fullPasswordList=[]
 passwordlist=[]
 while True:
     ui=input("Enter a s d or q")
-    
+    a()
