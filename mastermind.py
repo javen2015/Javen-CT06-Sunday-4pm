@@ -11,5 +11,5 @@ if guessindividual[0]==mastermindnumber[0]:
 elif guessindividual in mastermindnumber:
     guessindividual[0]="P"
 else:
-    guessindividual[0]
+    guessindividual[0]="W"
 print(guessindividual)
