@@ -77,8 +77,8 @@
 
 
 ui=input()
-splitui=ui.split(" ")
-reversedui=str(ui)[::-1]  
+splitui=str(ui).split(" ")
+reversedui=str(splitui)[::-1]  
 output=reversedui==str(ui)
 print(output) 
 
