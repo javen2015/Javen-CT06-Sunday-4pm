@@ -89,7 +89,7 @@
 #     print("True "+str(counter))
 
 for i in range(len(sales_data)):
-    sales_data[i][2]
+    price=sales_data[i][2]
 
  
 
