@@ -88,7 +88,8 @@
 # else:
 #     print("True "+str(counter))
 
-sal
+for i in range(len(sales_data)):
+    sales_data[i]
 
  
 
