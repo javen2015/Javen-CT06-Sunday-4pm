@@ -151,3 +151,4 @@ else:
     fruit=4
 highestSellingFruit.append("1. "+str(sales_data[fruit]))
 sales_data.remove[fruit]
+print(sales_data[0])
