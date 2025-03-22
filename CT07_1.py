@@ -133,7 +133,7 @@ else:
     speech+="1. Mango"+str(max(price))
     fruit=4
 highestSellingFruit.append("1. "+str(sales_data[fruit]))
-sales_data.remove[fruit]
+sales_data.pop[fruit]
 if max(price)=="Apple":
     speech+="1. Apple"+str(max(price))
     fruit=0
@@ -150,7 +150,7 @@ else:
     speech+="1. Mango"+str(max(price))
     fruit=4
 highestSellingFruit.append("1. "+str(sales_data[fruit]))
-sales_data.remove[fruit]
+sales_data.pop[fruit]
 print(highestSellingFruit[0])
 print(highestSellingFruit[1])
 print(highestSellingFruit[2])
