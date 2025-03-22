@@ -180,6 +180,8 @@ def a():
         p=input("Password")
         w=input("Website")
         passwordlist.append(n)
+        passwordlist.append(p)
+        passwordlist.append(w)
         fullPasswordList.append(passwordlist)
         print(fullPasswordList)
 fullPasswordList=[]
