@@ -77,7 +77,6 @@
 
 
 ui=input()
-
 reversedui=str(ui)[::-1]  
 output=reversedui==str(ui)
 print(output) 
