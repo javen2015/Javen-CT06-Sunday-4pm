@@ -68,10 +68,10 @@
 
 
 
-# ui=1331
-# reversedui=str(ui)[::-1]
-# output=reversedui==str(ui)
-# print(output)
+ui=input
+reversedui=str(ui)[::-1]
+output=reversedui==str(ui)
+print(output)
 
 
 
