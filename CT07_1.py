@@ -173,4 +173,4 @@ for i in range(3):
     price[index_of_highest]
 print("Top 1 fruit: " + str(sales_data[top3[0]][1]))
 print("Top 2 fruit: " + str(sales_data[top3[0]][1]))
-print("Top 1 fruit: " + str(sales_data[top3[0]][1]))
+print("Top 3 fruit: " + str(sales_data[top3[0]][1]))
