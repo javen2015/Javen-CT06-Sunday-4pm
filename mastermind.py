@@ -1,2 +1,2 @@
 import random
-random
+number=random.randint
