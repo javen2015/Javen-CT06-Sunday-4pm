@@ -69,7 +69,7 @@ print(reversedsentence)
 
 
 ui=input()
-
+ui.split()
 
 
 
