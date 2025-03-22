@@ -69,9 +69,9 @@
 
 
 ui=1331
-reversedui=str(ui)[::-1]
-output=reversedui==str(ui)
-print(output)
+# reversedui=str(ui)[::-1]
+# output=reversedui==str(ui)
+# print(output)
 
 
 
