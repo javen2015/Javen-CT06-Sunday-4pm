@@ -174,5 +174,6 @@
 # print("Top 1 fruit: " + str(sales_data[top3[0]][1]))
 # print("Top 2 fruit: " + str(sales_data[top3[1]][1]))
 # print("Top 3 fruit: " + str(sales_data[top3[2]][1]))
-
+passwordlist=[]
 ui=input("Enter a s d or q")
+def a():
