@@ -5,4 +5,4 @@ for i in range(4):
     mastermindnumber[i]=number
 guess=int(input("Guess the number with each number seperated by a space."))
 guess.split(" ")
-print()
+print(guess)
