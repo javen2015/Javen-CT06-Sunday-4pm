@@ -12,3 +12,5 @@
 # else:
 #     print("You got it wrong.")
 # When you put ####.split() python will refer it to no space or have space.
+
+import turtle as t
