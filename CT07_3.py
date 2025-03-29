@@ -30,6 +30,7 @@ t.goto(-300,-250)
 t.seth(0)
 t.pencolor("yellow")
 t.pendown()
-t.hi
+t.hideturtle
+t.fot
 
 window.mainloop()
