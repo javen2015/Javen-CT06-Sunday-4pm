@@ -13,8 +13,8 @@
 #     print("You got it wrong.")
 # When you put ####.split() python will refer it to no space or have space.
 
-import turtle as pen
-window = t.Screen()
+import turtle
+window = turtle.Screen()
 window.bgcolor("forestgreen")
 window.setup(600,600)
 t.penup()
