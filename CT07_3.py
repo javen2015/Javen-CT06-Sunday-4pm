@@ -19,7 +19,6 @@ window.bgcolor("forestgreen")
 window.setup(600,600)
 t.seth(0)
 t.goto(-300,250)
-t.pendown()
 for i in range(-300,300,25):
     t.setx(i)
     t.stamp()
