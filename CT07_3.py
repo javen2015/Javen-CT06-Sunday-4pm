@@ -14,7 +14,7 @@ if haveSpace:
             break
 else:
     if uiupper=="EGG":
-        is
+        isCorrect=True
 
 if isCorrect:
     print("Correct!Well done!")
