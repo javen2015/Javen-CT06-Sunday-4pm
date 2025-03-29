@@ -1,8 +1,12 @@
+haveSpace=False
 isCorrect=False
 ui=input("What has to be broken before you can use it?")
 uiupper=ui.upper()
+for i in ui:
+    if i ==" ":
+        haveSpace==""
 uisplit=uiupper.split(" ")
-for i in range(uisplit):
+for i in uisplit:
     if i =="EGG":
         isCorrect=True
         break
