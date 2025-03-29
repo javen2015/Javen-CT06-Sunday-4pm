@@ -11,7 +11,7 @@
 #     print("Correct!Well done!")
 # else:
 #     print("You got it wrong.")
-# When you put ####.split() python will refer it to no space or have space. IMPORTANT
+# When you put ####.split() python will refer it to no space or have space. *IMPORTANT*
 
 import turtle
 window = turtle.Screen()
