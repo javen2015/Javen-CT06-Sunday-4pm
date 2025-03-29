@@ -18,6 +18,6 @@ window = turtle.Screen()
 window.bgcolor("forestgreen")
 window.setup(width=600 ,height=900)
 t = turtle.Turtle
-t.shape("turtle")
+t.shape()
 t.pendown()
 window.mainloop()
