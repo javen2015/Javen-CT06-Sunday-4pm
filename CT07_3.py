@@ -28,5 +28,6 @@ for i in range(-300,300,25):
     t.penup()
 t.goto(-300,-250)
 t.seth(0)
+t.pencolor("yellow")
 
 window.mainloop()
