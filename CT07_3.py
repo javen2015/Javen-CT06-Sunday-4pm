@@ -36,5 +36,5 @@ s=turtle.Turtle()
 s.penup()
 s.seth(90)
 s.shape("turtle")
-s.color
+s.color("red")
 window.mainloop()
