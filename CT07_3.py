@@ -20,4 +20,5 @@ window.setup(width=600 ,height=900)
 t = turtle.Turtle
 t.seth(0)
 t.pendown()
+t.goto()
 window.mainloop()
