@@ -6,15 +6,13 @@ for i in ui:
     if i ==" ":
         haveSpace=True
         break
-if haveSpace:
-    uisplit=uiupper.split(" ")
-    for i in uisplit:
-        if i =="EGG":
-            isCorrect=True
-            break
-else:
-    if uiupper=="EGG":
+
+uisplit=uiupper.split(" ")
+for i in uisplit:
+    if i =="EGG":
         isCorrect=True
+        break
+
 
 if isCorrect:
     print("Correct!Well done!")
