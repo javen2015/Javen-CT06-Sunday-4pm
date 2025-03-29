@@ -6,4 +6,4 @@ for i in range(uisplit):
     if i =="EGG":
         isCorrect=True
         break
-
+if isCorrect=="True"
