@@ -33,4 +33,5 @@ t.pendown()
 t.hideturtle
 t.forward(600)
 Sally=turtle.Turtle()
+
 window.mainloop()
