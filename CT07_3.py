@@ -23,4 +23,5 @@ t.pendown()
 for i in range(-300,300,25):
     t.setx(i)
     t.stamp()
+    t.penup()
 window.mainloop()
