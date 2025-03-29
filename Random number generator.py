@@ -3,6 +3,5 @@ numberRange=input("What is the number range? Type the minimum number and the max
 splitNumberRange=numberRange.split(" ")
 number=random.randint(int(splitNumberRange[0]),int(splitNumberRange[1]))
 minusing=int(int(splitNumberRange[1])+1)-1
-dividingNumber=int(int(splitNumberRange[1])+1)
-print("There is a "+str(100/dividingNumber)+"% chance of each number generating.")
+print("There is a "+str(100/minusing)+"% chance of each number generating.")
 print(number)
