@@ -15,6 +15,6 @@
 
 import turtle
 window = turtle.Screen()
-window.mainloop()
 window.bgcolor("forestgreen")
 window.setup(width=600 ,height=900)
+window.mainloop()
