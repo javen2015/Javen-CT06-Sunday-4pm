@@ -17,7 +17,7 @@ import turtle as t
 window = turtle.Screen()
 window.bgcolor("forestgreen")
 window.setup(width=600 ,height=900)
-t = turtle.Turtle
+t = t.Turtle
 t.seth(0)
 t.pendown()
 t.goto(-300,250)
