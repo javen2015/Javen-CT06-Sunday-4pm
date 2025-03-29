@@ -11,4 +11,4 @@ if isCorrect:
     print("Correct!Well done!")
 else:
     print("You got it wrong.")
-# When you put ####.split() python wi
+# When you put ####.split() python will refer it to no space or have space.
