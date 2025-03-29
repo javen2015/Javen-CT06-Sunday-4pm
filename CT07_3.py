@@ -8,3 +8,5 @@ for i in range(uisplit):
         break
 if isCorrect=="True":
     print("Correct!Well done!")
+else:
+    print()
