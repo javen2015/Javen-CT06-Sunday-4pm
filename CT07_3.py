@@ -13,7 +13,8 @@ if haveSpace:
             isCorrect=True
             break
 else:
-    uisplit=uiupper
+    if uiupper=="EGG":
+        is
 
 if isCorrect:
     print("Correct!Well done!")
