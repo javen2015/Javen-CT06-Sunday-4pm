@@ -7,8 +7,6 @@ for i in uisplit:
     if i =="EGG":
         isCorrect=True
         break
-
-
 if isCorrect:
     print("Correct!Well done!")
 else:
