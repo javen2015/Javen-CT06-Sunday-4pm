@@ -14,7 +14,7 @@
 # When you put ####.split() python will refer it to no space or have space.
 
 import turtle as t
-window = turtle.Screen()
+window = t.Screen()
 window.bgcolor("forestgreen")
 window.setup(width=600 ,height=900)
 t = t.Turtle
