@@ -7,5 +7,6 @@ minusing=int(int(splitNumberRange[1])+1)-int(splitNumberRange[0])
 dividingNumber=100/minusing
 rounded=round(dividingNumber),2
 print("There is a "+str(rounded)+"% chance of each number generating.")
+
 time.sleep(1)
 print(number)
