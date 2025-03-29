@@ -4,5 +4,6 @@ uiupper=ui.upper()
 uisplit=uiupper.split(" ")
 for i in range(uisplit):
     if i =="EGG":
+        isCorrect=
         break
 
