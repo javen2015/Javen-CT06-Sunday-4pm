@@ -10,5 +10,5 @@ for i in uisplit:
 if isCorrect:
     print("Correct!Well done!")
 else:
-    print("You got it wrong:(")
+    print("You got it wrong.")
 
