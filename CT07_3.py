@@ -32,6 +32,6 @@ t.pencolor("yellow")
 t.pendown()
 t.hideturtle
 t.forward(600)
-Sally=turtle.Turtle()
-
+s=turtle.Turtle()
+s
 window.mainloop()
