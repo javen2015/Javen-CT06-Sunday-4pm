@@ -32,4 +32,5 @@ t.pencolor("yellow")
 t.pendown()
 t.hideturtle
 t.forward(600)
+Sally=tu
 window.mainloop()
