@@ -5,8 +5,8 @@ uiupper=ui.upper()
 for i in ui:
     if i ==" ":
         break
-    
-        uisplit=uiupper.split(" ")
+        haveSpace=True
+uisplit=uiupper.split(" ")
 for i in uisplit:
     if i =="EGG":
         isCorrect=True
