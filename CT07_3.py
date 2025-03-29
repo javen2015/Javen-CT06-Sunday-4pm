@@ -9,4 +9,4 @@ for i in range(uisplit):
 if isCorrect=="True":
     print("Correct!Well done!")
 else:
-    print("You got it wrong:()")
+    print("You got it wrong:(")
