@@ -35,5 +35,6 @@ t.forward(600)
 s=turtle.Turtle()
 s.penup()
 s.seth(90)
-s.shape("tu")
+s.shape("turtle")
+s.color
 window.mainloop()
