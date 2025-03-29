@@ -14,7 +14,7 @@
 # When you put ####.split() python will refer it to no space or have space. *IMPORTANT*
 
 import turtle
-guess=input("Guess the winner")
+guess=input("Guess the winner!")
 window = turtle.Screen()
 window.bgcolor("forestgreen")
 window.setup(600,600)
