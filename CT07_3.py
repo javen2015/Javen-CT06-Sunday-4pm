@@ -19,4 +19,5 @@ window.bgcolor("forestgreen")
 window.setup(width=600 ,height=900)
 t = turtle.Turtle
 t.shape("turtle")
+t.pendown()
 window.mainloop()
