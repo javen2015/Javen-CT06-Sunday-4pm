@@ -4,5 +4,5 @@ splitNumberRange=numberRange.split(" ")
 number=random.randint(int(splitNumberRange[0]),int(splitNumberRange[1]))
 minusing=int(int(splitNumberRange[1])+1)-int(splitNumberRange[0])
 dividingNumber=100/minusing
-print("There is a "+str(round(dividingNumber))+"% chance of each number generating.")
+print("There is a "+str(round(dividingNumber),2)+"% chance of each number generating.")
 print(number)
