@@ -4,8 +4,7 @@ ui=input("What has to be broken before you can use it?")
 uiupper=ui.upper()
 for i in ui:
     if i ==" ":
-        haveSpace==True
-uisplit=uiupper.split(" ")
+        uisplit=uiupper.split(" ")
 for i in uisplit:
     if i =="EGG":
         isCorrect=True
