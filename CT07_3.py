@@ -26,5 +26,5 @@ for i in range(-300,300,25):
     t.setx(i)
     t.stamp()
     t.penup()
-
+t.goto(-300,-250)
 window.mainloop()
