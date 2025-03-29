@@ -1,2 +1,2 @@
 import random
-numberRange=int(input)
+numberRange=int(input("What is the number range?"))
