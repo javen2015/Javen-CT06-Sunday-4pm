@@ -30,7 +30,7 @@ t.goto(-300,-250)
 t.seth(0)
 t.pencolor("yellow")
 t.pendown()
-t.hideturtle
+t.hideturtle()
 t.forward(600)
 s=turtle.Turtle()
 s.penup()
