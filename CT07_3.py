@@ -6,7 +6,8 @@ for i in ui:
     if i ==" ":
         haveSpace=True
         break
-uisplit=uiupper.split(" ")
+if haveSpace:
+    uisplit=uiupper.split(" ")
 for i in uisplit:
     if i =="EGG":
         isCorrect=True
