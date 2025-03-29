@@ -34,4 +34,5 @@ t.hideturtle
 t.forward(600)
 s=turtle.Turtle()
 s.penup()
+s.seth(90)
 window.mainloop()
