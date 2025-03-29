@@ -9,7 +9,7 @@ for i in ui:
 if haveSpace:
     uisplit=uiupper.split(" ")
 else:
-    uiupper
+    uisplit=uiupper
 for i in uisplit:
     if i =="EGG":
         isCorrect=True
