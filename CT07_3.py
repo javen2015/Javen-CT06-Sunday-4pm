@@ -14,6 +14,7 @@
 # When you put ####.split() python will refer it to no space or have space. *IMPORTANT*
 
 import turtle
+import random
 guess=input("Guess the winner!")
 window = turtle.Screen()
 window.bgcolor("forestgreen")
