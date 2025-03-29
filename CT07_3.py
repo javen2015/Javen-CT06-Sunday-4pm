@@ -38,4 +38,5 @@ s.seth(90)
 s.shape("turtle")
 s.color("red")
 s.goto(0,-250)
+s.write
 window.mainloop()
