@@ -32,5 +32,4 @@ t.pencolor("yellow")
 t.pendown()
 t.hideturtle
 t.forward(600)
-
 window.mainloop()
