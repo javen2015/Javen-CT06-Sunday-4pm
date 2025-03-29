@@ -20,4 +20,5 @@ window.setup(width=600 ,height=900)
 t.seth(0)
 t.goto(-300,250)
 t.pendown()
+for 
 window.mainloop()
