@@ -4,6 +4,6 @@ window.bgcolor("forestgreen")
 window.setup(600,600)
 t = turtle.Turtle()
 t.goto(-100,-50)
-t.seth(0)
-
+t.seth(90)
+t.hideturtle
 window.mainloop()
