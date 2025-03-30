@@ -18,6 +18,6 @@ t.forward(100)
 t.seth(180)
 t.penup()
 t.forward(100)
-
+t.pencolor("Black")
 t.write("Happy Birthday Javen!",align="right",font=("Arial",10))
 window.mainloop()
