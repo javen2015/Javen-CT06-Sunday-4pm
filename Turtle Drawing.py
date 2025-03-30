@@ -8,5 +8,6 @@ t.goto(-100,-50)
 t.seth(90)
 t.hideturtle()
 t.pendown()
-t.forward
+t.forward(200)
+t.seth
 window.mainloop()
