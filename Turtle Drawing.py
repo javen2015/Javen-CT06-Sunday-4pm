@@ -3,7 +3,7 @@ window = turtle.Screen()
 window.bgcolor("forestgreen")
 window.setup(600,600)
 t = turtle.Turtle()
-t.
+t.pencolor("red")
 t.penup()
 t.goto(0,0)
 t.seth(90)
