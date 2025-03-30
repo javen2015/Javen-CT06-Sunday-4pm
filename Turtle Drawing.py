@@ -9,5 +9,5 @@ t.seth(90)
 t.hideturtle()
 t.pendown()
 t.forward(200)
-t.seth
+t.seth(315)
 window.mainloop()
