@@ -10,6 +10,6 @@ t.hideturtle()
 t.pendown()
 t.forward(200)
 t.seth(270)
-t.forward(100)
+t.forward(200)
 
 window.mainloop()
