@@ -13,5 +13,7 @@ t.seth(315)
 t.forward(100)
 t.seth(225)
 t.forward(100)
-t.seth(1)
+t.seth(180)
+t.penup()
+t.
 window.mainloop()
