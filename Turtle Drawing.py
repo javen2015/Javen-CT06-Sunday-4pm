@@ -7,4 +7,5 @@ t.penup()
 t.goto(-100,-50)
 t.seth(90)
 t.hideturtle()
+t.pr
 window.mainloop()
