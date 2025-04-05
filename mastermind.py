@@ -1,7 +1,7 @@
 import random
 superlist=[]
 mastermindnumber=[1,2,3,4]
-for i in range(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999):
+for i in range(999):
     for i in range(4):
         number=random.randint(0,9)
         mastermindnumber[i]=number
