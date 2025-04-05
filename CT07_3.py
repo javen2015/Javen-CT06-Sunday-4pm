@@ -63,5 +63,5 @@ k.pendown()
 while True:
     b.seth(random.randint(75,115))
     s.seth(random.randint(75,115))
-    k.seth
+    k.seth(random.randint(75,115))
 window.mainloop()
