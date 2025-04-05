@@ -60,5 +60,6 @@ k.write("Keith",align="center",font=("Arial",20))
 b.pendown()
 s.pendown()
 k.pendown()
-    b.seth(random.randint)
+while True:
+    b.seth(random.randint())
 window.mainloop()
