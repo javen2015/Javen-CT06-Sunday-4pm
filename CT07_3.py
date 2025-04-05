@@ -76,5 +76,6 @@ while True:
     elif k.ycor()>y_axis:
         winner="Keith"
         break
-
+if guess==winner:
+    print("Congratual")
 window.mainloop()
