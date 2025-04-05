@@ -5,7 +5,8 @@ for i in range(4):
     number=random.randint(0,9)
     mastermindnumber[i]=number
 print(mastermindnumber)
-total=sum(mastermindnumber[0],mastermindnumber[1],mastermindnumber[2],mastermindnumber[3])
+total=sum(mastermindnumber[0],mastermindnumber[1])
+total=
 print(total/4)
 # guess=input("Guess the number with each number seperated by a space.")
 # guessindividual=guess.split(" ")
