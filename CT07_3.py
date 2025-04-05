@@ -77,5 +77,4 @@ while True:
         winner="Keith"
         break
 
-        
 window.mainloop()
