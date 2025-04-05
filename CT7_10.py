@@ -8,6 +8,7 @@ t.fillcolor("orange")
 t.seth(0)
 t.pendown()
 def turtle():
+    t.seht(0)
     for i in range(2):
         t.forward(100)
         t.right(90)
