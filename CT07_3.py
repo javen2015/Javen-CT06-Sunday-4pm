@@ -65,5 +65,5 @@ while True:
     s.seth(random.randint(75,115))
     k.seth(random.randint(75,115))
     b.forward(random.randint(1,20))
-    b.forward(random.randint(1,20))
+    s.forward(random.randint(1,20))
 window.mainloop()
