@@ -15,7 +15,7 @@
 
 import turtle
 import random
-x_axis=100
+y_axis=100
 winner=""
 guess=input("Guess the winner!")
 window = turtle.Screen()
@@ -60,4 +60,5 @@ k.write("Keith",align="center",font=("Arial",20))
 b.pendown()
 s.pendown()
 k.pendown()
+
 window.mainloop()
