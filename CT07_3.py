@@ -70,6 +70,9 @@ while True:
     if b.ycor()>y_axis:
         winner="Bob"
         break
-    
+    elif b.ycor()>y_axis:
+        winner="Bob"
+        break
+
         
 window.mainloop()
