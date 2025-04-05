@@ -9,5 +9,5 @@ t.seth(0)
 t.pendown()
 for i in range(2):
     t.forward(100)
-    t.right(50)
+    t.right(90)
 window.mainloop()
