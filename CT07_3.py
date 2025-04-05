@@ -70,8 +70,8 @@ while True:
     if b.ycor()>y_axis:
         winner="Bob"
         break
-    elif b.ycor()>y_axis:
-        winner="Bob"
+    elif s.ycor()>y_axis:
+        winner="Sally"
         break
 
         
