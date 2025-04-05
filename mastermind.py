@@ -8,7 +8,7 @@ print(mastermindnumber)
 total=sum(mastermindnumber[0],mastermindnumber[1])
 total2=sum(mastermindnumber[2],mastermindnumber[3])
 total3=total+total2
-print(total/4)
+print(total3/4)
 # guess=input("Guess the number with each number seperated by a space.")
 # guessindividual=guess.split(" ")
 # if guessindividual[0]==mastermindnumber[0]:
