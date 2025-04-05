@@ -10,4 +10,4 @@ t.pendown()
 while True:
     for i in range(5):
         t.forward(100)
-        t.left(120)
+        t.right(72)
