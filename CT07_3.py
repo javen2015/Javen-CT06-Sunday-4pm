@@ -79,6 +79,6 @@ while True:
 if guess==winner:
     print("Congratulations! Your guess is correct!")
 else:
-    print(winner+"is the winner. Try again next time.")
+    print(winner+" is the winner. Try again next time.")
 
 window.mainloop()
