@@ -68,7 +68,8 @@ while True:
     s.forward(random.randint(1,20))
     k.forward(random.randint(1,20))
     if b.ycor()>y_axis:
-        winner="bOb"
+        winner="Bob"
         break
+    
         
 window.mainloop()
