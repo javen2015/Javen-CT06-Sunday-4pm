@@ -15,7 +15,7 @@
 
 import turtle
 import random
-y_axis=100
+y_axis=250
 winner=""
 guess=input("Guess the winner!")
 window = turtle.Screen()
