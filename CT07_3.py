@@ -67,4 +67,7 @@ while True:
     b.forward(random.randint(1,20))
     s.forward(random.randint(1,20))
     k.forward(random.randint(1,20))
+    if b.ycor()>y_axis:
+        break
+        
 window.mainloop()
