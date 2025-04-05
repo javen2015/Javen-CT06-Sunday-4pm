@@ -76,7 +76,7 @@ while True:
     elif k.ycor()>y_axis:
         winner="Keith"
         break
-if guess==winner:
+if guess.lower()==winner.lower():
     print("Congratulations! Your guess is correct!")
 else:
     print(winner+" is the winner. Try again next time.")
