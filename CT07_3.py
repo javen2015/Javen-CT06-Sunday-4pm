@@ -78,7 +78,7 @@ while True:
         break
 if guess==winner:
     print("Congratulations! Your guess is correct!")
-else:]
-
+else:
+    print()
 
 window.mainloop()
