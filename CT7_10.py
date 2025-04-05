@@ -7,8 +7,7 @@ t.shape("turtle")
 t.fillcolor("orange")
 t.seth(0)
 t.pendown()
-while True:
-    for i in range(5):
+for i in range(5):
         t.forward(100)
         t.right(72)
 t.mainloop()
