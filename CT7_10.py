@@ -9,4 +9,4 @@ t.seth(0)
 while True:
     for i in range(3):
         t.forward(100)
-        t.left(45)
+        t.left(120)
