@@ -60,5 +60,5 @@ k.write("Keith",align="center",font=("Arial",20))
 b.pendown()
 s.pendown()
 k.pendown()
-
+b.seth()
 window.mainloop()
