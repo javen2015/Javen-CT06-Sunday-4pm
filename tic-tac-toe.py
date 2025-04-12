@@ -1,4 +1,3 @@
-cellnumber=1
 def initialiseBoard():
    grid=[]
    row=[]
@@ -10,6 +9,7 @@ def initialiseBoard():
    return(grid)
 grid=initialiseBoard()
 def printGrid(userAnswer):
+   cellnumber=1
    for i in range(3):
       for i in range(3):
          if grid[userAnswer]==" ":
