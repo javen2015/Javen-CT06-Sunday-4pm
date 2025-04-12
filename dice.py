@@ -1,2 +1,2 @@
 import random as r
-diceNumber=
+diceNumber=r.randint(1,6)
