@@ -5,4 +5,3 @@ def initialiseBoard():
         row.append(" ")
      grid.append(row)
      return(grid)
-print(grid)
