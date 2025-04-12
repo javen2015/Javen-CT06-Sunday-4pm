@@ -9,7 +9,9 @@ def convertOppositeSide(numberToConvert):
         oppositeSideNumber=4
     elif numberToConvert == 4:
         oppositeSideNumber=3
-        
+    elif numberToConvert == 5:
+        oppositeSideNumber=2
+    
 
 guess=int("Guess the number.")
 print(diceNumber)
