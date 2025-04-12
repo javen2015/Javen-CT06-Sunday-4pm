@@ -17,5 +17,5 @@ def printGrid(userAnswer):
          else:
             print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
-         print("\n---------------")
+      print("\n---------------")
 printGrid(3)
