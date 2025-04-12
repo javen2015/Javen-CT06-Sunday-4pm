@@ -5,5 +5,4 @@ def initialiseBoard():
       row=[]
       row.append(" ")
    grid.append(row)
-   print(id(row))
    return(grid)
