@@ -1,3 +1,4 @@
+cellnumber=1
 def initialiseBoard():
    grid=[]
    row=[]
