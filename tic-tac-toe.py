@@ -1,1 +1,2 @@
-initialiseBoard()
+def initialiseBoard():
+     grid=[[" "," "]]
