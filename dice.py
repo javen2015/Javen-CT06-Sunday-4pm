@@ -5,7 +5,7 @@ def convertOppositeSide(numberToConvert):
         oppositeSideNumber=6
     elif numberToConvert == 2:
         oppositeSideNumber=5
-    elif numberToConvert == 1:
-        oppositeSideNumber=6
+    elif numberToConvert == 3:
+        oppositeSideNumber=4
 guess=int("Guess the number.")
 print(diceNumber)
