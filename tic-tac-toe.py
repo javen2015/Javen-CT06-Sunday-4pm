@@ -5,5 +5,5 @@ def initialiseBoard():
       row=[]
       row.append(" ")
    grid.append(row)
-   print("%p"%row)
+   print(""%row)
    return(grid)
