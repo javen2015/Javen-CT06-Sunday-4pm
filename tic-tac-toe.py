@@ -7,3 +7,4 @@ def initialiseBoard():
       grid.append(row)
       grid.append("\n")
    return(grid)
+grid=initialiseBoard()
