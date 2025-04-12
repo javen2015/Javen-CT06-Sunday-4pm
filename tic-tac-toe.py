@@ -18,3 +18,4 @@ def printGrid(userAnswer):
             print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
          print("\n---------------")
+printGrid(3)
