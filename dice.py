@@ -14,5 +14,5 @@ def convertOppositeSide(numberToConvert):
     else:
         oppositeSideNumber=1
     return oppositeSideNumber
-guess=int("Guess the number.")
+print()
 print(diceNumber)
