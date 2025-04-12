@@ -9,9 +9,10 @@ def initialiseBoard():
          grid.append(row)
    return(grid)
 grid=initialiseBoard()
-def printGrid(user):
+def printGrid(userAnswer):
    for i in range(3):
       for i in range(3):
-         print(" | "+str(cellnumber)+" ",end="")
+         if grid[userAnswer]==" ":
+            print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
          print("\n---------------")
