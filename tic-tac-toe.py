@@ -8,3 +8,4 @@ def initialiseBoard():
       grid.append("\n")
    return(grid)
 grid=initialiseBoard()
+print(grid)
