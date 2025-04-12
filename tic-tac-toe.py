@@ -1,3 +1,2 @@
 def initialiseBoard():
-     grid=[[" "," "," "],
-           " "]
+     grid=[[" "," "," "]," "," ", " "]
