@@ -3,5 +3,6 @@ def initialiseBoard():
      row=[]
      for i in range(3):
         row.append(" ")
-     grid.append(row)
+     for i in range(3):
+      grid.append(row)
      return(grid)
