@@ -14,4 +14,4 @@ def printGrid():
       for i in range(3):
          print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
-      print("\n---------------")
+         print("\n---------------")
