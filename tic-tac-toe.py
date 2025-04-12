@@ -13,4 +13,4 @@ for i in range(3):
    for i in range(3):
       print(" | "+str(cellnumber)+" ",end="")
       cellnumber+=1
-   print("---------------")
+   print("\n---------------")
