@@ -7,4 +7,4 @@ def initialiseBoard():
    grid.append(row)
    return(grid)
 def normalGame():
-   ini
+   initialiseBoard()
