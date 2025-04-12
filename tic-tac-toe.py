@@ -5,7 +5,7 @@ def initialiseBoard():
       for i in range(3):
          row=[]
          row.append(" ")
-      grid.append(row)
+         grid.append(row)
    return(grid)
 grid=initialiseBoard()
 print(grid)
