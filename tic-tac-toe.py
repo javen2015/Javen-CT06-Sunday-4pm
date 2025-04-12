@@ -5,4 +5,5 @@ def initialiseBoard():
       row.append(" ")
    for i in range(3):
       grid.append(row)
+      grid.append("\n")
    return(grid)
