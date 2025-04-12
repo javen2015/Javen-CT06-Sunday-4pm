@@ -12,7 +12,7 @@ def printGrid(userAnswer):
    cellnumber=1
    for i in range(3):
       for i in range(3):
-         if grid[userAnswer]==" ":
+         if grid[userAnswer][xs]==" ":
             print(" | X ",end="")
          else:
             print(" | "+str(cellnumber)+" ",end="")
@@ -20,4 +20,3 @@ def printGrid(userAnswer):
       print("\n---------------")
 printGrid(3)
 
-row
