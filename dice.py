@@ -13,6 +13,6 @@ def convertOppositeSide(numberToConvert):
         oppositeSideNumber=2
     else:
         oppositeSideNumber=1
-
+    return
 guess=int("Guess the number.")
 print(diceNumber)
