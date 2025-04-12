@@ -8,4 +8,5 @@ def initialiseBoard():
          grid.append(row)
    return(grid)
 grid=initialiseBoard()
-print(grid)
+for i in range(9):
+   cellnumber+=1
