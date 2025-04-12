@@ -10,5 +10,6 @@ def initialiseBoard():
    return(grid)
 grid=initialiseBoard()
 for i in range(3):
-   print(" | "+str(cellnumber)+" ",end="")
-   cellnumber+=1
+   for i in range(3):
+      print(" | "+str(cellnumber)+" ",end="")
+      cellnumber+=1
