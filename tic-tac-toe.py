@@ -4,3 +4,4 @@ def initialiseBoard():
      for i in range(3):
         row.append(" ")
      grid.append(row)
+     return(grof)
