@@ -9,7 +9,7 @@ def initialiseBoard():
          grid.append(row)
    return(grid)
 grid=initialiseBoard()
-def printGrid():
+def printGrid(user):
    for i in range(3):
       for i in range(3):
          print(" | "+str(cellnumber)+" ",end="")
