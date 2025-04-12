@@ -14,5 +14,7 @@ def printGrid(userAnswer):
       for i in range(3):
          if grid[userAnswer]==" ":
             print(" | X ",end="")
+         else:
+            print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
          print("\n---------------")
