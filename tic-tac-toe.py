@@ -10,5 +10,5 @@ def initialiseBoard():
    return(grid)
 grid=initialiseBoard()
 for i in range(3):
-   
+   print(" | ")
    cellnumber+=1
