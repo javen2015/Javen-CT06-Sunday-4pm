@@ -5,7 +5,7 @@ for i in range(10):
         spaces=100
         num=200
         for i in range(stars):
-            print('0'* (stars - i), '1' * num)
+            print(' '* (stars - i), '*' * num)
             num=num-2
             spaces=spaces-1
             time.sleep(0.01)
