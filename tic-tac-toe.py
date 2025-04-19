@@ -17,9 +17,6 @@ def printGrid(grid):
             print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
       print("\n---------------")
-
-grid=initialiseBoard()
-questions = ["Player 1(X)","Player 2(O)"]
 def getPlayerMove():
    for turn in range(9):
       userChoice = int(input(questions[turn%2]+"Please key in your choice."))
@@ -28,3 +25,6 @@ def getPlayerMove():
       col=index%3
       grid[row][col] = "X"
       printGrid(grid)
+
+grid=initialiseBoard()
+questions = ["Player 1(X)","Player 2(O)"]
