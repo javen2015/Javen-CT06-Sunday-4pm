@@ -30,4 +30,4 @@ grid=initialiseBoard()
 questions = ["Player 1(X)","Player 2(O)"]
 while True:
    printGrid(grid)
-   GeneratorExit
+   getPlayerMove()
