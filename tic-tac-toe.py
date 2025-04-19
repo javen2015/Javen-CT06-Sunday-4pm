@@ -32,7 +32,7 @@ def getPlayerMove(grid):
             break
          else:
             print("Please key i your choice again as this spot is taken.")
-   winningConditions=[]
+   winningConditions=[[grid[0][0],]]
    printGrid(grid)
 
 grid=initialiseBoard()
