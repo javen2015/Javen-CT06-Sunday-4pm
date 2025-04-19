@@ -24,12 +24,14 @@ def getPlayerMove(grid):
       if (userChoice.isdigit()==False or int(userChoice)<1 or int(userChoice)>9):
          print("Please key in a valid number.")
       else:
-         break
-   index=userChoice-1
-   row=index//3
-   col=index%3
-   if(grid[row][col]==" "):
-      grid[row][col] = "X"
+         index=userChoice-1
+         row=index//3
+         col=index%3
+         if(grid[row][col]==" "):
+            grid[row][col] = "X"
+            break
+         else:
+            print("Please key i your choice again as this spot is taken.")
    printGrid(grid)
 
 grid=initialiseBoard()

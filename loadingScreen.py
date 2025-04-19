@@ -1,13 +1,10 @@
-for i in range(10000):
-    stars=10
-    spaces=0
-    num=0
-    for i in range(stars):
-        num=num+2
-        spaces=spaces+1
-        print(' '* (stars - i), '*' * num)
-    stars=0
-    for i in range(stars):
-        num=num-2
-        spaces=spaces-1
-        print(' '* (stars - i), '*' * num)
+for i in range(100):
+    for i in range(1):
+        stars=100
+        spaces=100
+        num=200
+        for i in range(stars):
+            print(' '* (stars - i), '*' * num)
+            num=num-2
+            spaces=spaces-1
+        
