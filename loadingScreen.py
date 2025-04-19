@@ -8,5 +8,5 @@ while True:
         print(' '* (stars - i), '*' * num)
     for i in range(stars):
         num=num-2
-        spaces=spaces+1
+        spaces=spaces-1
         print(' '* (stars - i), '*' * num)
