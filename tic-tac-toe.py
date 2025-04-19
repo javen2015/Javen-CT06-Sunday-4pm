@@ -16,7 +16,7 @@ def printGrid(grid):
          else:
             print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
-      print("\n---------------")
+      print("\n________________________")
 
 grid=initialiseBoard()
 questions = ["Player 1(X)","Player 2(O)"]
