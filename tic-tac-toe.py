@@ -20,6 +20,7 @@ def printGrid(grid):
 
 grid=initialiseBoard()
 questions = ["Player 1(X)","Player 2(O)"]
+get
 for turn in range(9):
    userChoice = int(input(questions[turn%2]+"Please key in your choice."))
    index=userChoice-1
