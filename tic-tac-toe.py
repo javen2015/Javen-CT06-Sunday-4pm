@@ -46,4 +46,5 @@ while True:
    getPlayerMove(grid)
    if checkWin(grid):
       print("Win")
+      printGrid(grid)
       break
