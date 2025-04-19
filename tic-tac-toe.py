@@ -19,7 +19,7 @@ def printGrid(grid):
       print("\n---------------")
 
 grid=initialiseBoard()
-questions = ["Player 1(X)","Player 2(0)"]
+questions = ["Player 1(X)","Player 2(O)"]
 for turn in range(9):
    userChoice = input(questions[turn%2]+"Please key in your choice.")
    printGrid(grid)
