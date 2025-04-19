@@ -25,4 +25,5 @@ for turn in range(9):
    index=userChoice-1
    row=index//3
    col=index%3
+   grid[row][col]
    printGrid(grid)
