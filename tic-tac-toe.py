@@ -28,7 +28,8 @@ def getPlayerMove(grid):
    index=userChoice-1
    row=index//3
    col=index%3
-   grid[row][col] = "X"
+   if(grid[row][col]==" "):
+      grid[row][col] = "X"
    printGrid(grid)
 
 grid=initialiseBoard()
