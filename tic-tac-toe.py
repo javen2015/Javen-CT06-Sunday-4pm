@@ -41,7 +41,7 @@ def checkWin(grid):
             if(condition!=" "):
                return True
             else:
-               return 
+               return False
 grid=initialiseBoard()
 while True:
    printGrid(grid)
