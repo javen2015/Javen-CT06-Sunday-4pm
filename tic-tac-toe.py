@@ -28,3 +28,5 @@ def getPlayerMove():
 
 grid=initialiseBoard()
 questions = ["Player 1(X)","Player 2(O)"]
+while True:
+   print
