@@ -35,7 +35,7 @@ def getPlayerMove(grid):
    printGrid(grid)
 def checkWin():
    winningConditions=[[grid[0][0],grid[0][1],grid[0][1]],[grid[1][0],grid[1][1],grid[1][1]],[grid[2][0],grid[2][1],grid[2][1]],[grid[0][0],grid[1][0],grid[2][0]],[grid[0][1],grid[1][1],grid[2][1]],[grid[0][2],grid[1][2],grid[2][2]],[grid[0][2],grid[1][1],grid[2][0]],[grid[0][0],grid[1][1],grid[2][2]]]
-
+   
 grid=initialiseBoard()
 while True:
    printGrid(grid)
