@@ -1,4 +1,4 @@
-
+import time
 for i in range(100):
     for i in range(1):
         stars=100
@@ -8,5 +8,4 @@ for i in range(100):
             print(' '* (stars - i), '*' * num)
             num=num-2
             spaces=spaces-1
-            
-        
+            time.slepp(0.01)
