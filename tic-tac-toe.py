@@ -32,8 +32,8 @@ def getPlayerMove(grid):
             break
          else:
             print("Please key i your choice again as this spot is taken.")
-   
    printGrid(grid)
+checkWin()
 
 grid=initialiseBoard()
 while True:
