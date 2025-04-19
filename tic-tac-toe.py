@@ -33,9 +33,13 @@ def getPlayerMove(grid):
          else:
             print("Please key i your choice again as this spot is taken.")
    printGrid(grid)
-def checkWin():
+def checkWin(grid):
    winningConditions=[[grid[0][0],grid[0][1],grid[0][1]],[grid[1][0],grid[1][1],grid[1][1]],[grid[2][0],grid[2][1],grid[2][1]],[grid[0][0],grid[1][0],grid[2][0]],[grid[0][1],grid[1][1],grid[2][1]],[grid[0][2],grid[1][2],grid[2][2]],[grid[0][2],grid[1][1],grid[2][0]],[grid[0][0],grid[1][1],grid[2][2]]]
-   
+   for condition in winningConditions:
+      for cell in condition:
+         if(condition[0]==condition[1]==condition[2]):
+            if(condition!=" "):
+               
 grid=initialiseBoard()
 while True:
    printGrid(grid)
