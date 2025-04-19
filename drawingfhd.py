@@ -5,4 +5,4 @@ while True:
     for i in range(stars):
         num=num+2
         spaces=spaces+1
-        print(' '* (Stars - i), '*' * num)
+        print(' '* (stars - i), '*' * num)
