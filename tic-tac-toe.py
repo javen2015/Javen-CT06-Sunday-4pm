@@ -23,6 +23,8 @@ def getPlayerMove(grid):
       userChoice = int(input("Player 1 please key in your choice."))
       if (userChoice.isdigit()==False or int(userChoice)<1 or int(userChoice)>9):
          print("Please key in a valid number.")
+      else:
+         break
    index=userChoice-1
    row=index//3
    col=index%3
