@@ -24,7 +24,7 @@ def getPlayerMove(grid):
       if (userChoice.isdigit()==False or int(userChoice)<1 or int(userChoice)>9):
          print("Please key in a valid number.")
       else:
-         index=userChoice-1
+         index=int(userChoice)-1
          row=index//3
          col=index%3
          if(grid[row][col]==" "):
