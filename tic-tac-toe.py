@@ -19,7 +19,8 @@ def printGrid(grid):
       print("\n---------------")
 def getPlayerMove(grid):
    # questions = ["Player 1(X)","Player 2(O)"]
-   userChoice = int(input("Player 1 please key in your choice."))
+   while (userChoice.isdigit()==False):
+      userChoice = int(input("Player 1 please key in your choice."))
    index=userChoice-1
    row=index//3
    col=index%3
