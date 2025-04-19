@@ -18,7 +18,7 @@ def printGrid(grid):
          cellnumber+=1
       print("\n---------------")
 def getPlayerMove(grid):
-   questions = ["Player 1(X)","Player 2(O)"]
+   # questions = ["Player 1(X)","Player 2(O)"]
    userChoice = int(input(questions[turn%2]+"Please key in your choice."))
    index=userChoice-1
    row=index//3
