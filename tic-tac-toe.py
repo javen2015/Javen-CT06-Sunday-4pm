@@ -38,8 +38,7 @@ def checkWin(grid):
    for condition in winningConditions:
       if(condition[0]==condition[1]==condition[2]):
          if(condition!=" "):
-            return True
-         
+            return True       
    return False
 grid=initialiseBoard()
 while True:
