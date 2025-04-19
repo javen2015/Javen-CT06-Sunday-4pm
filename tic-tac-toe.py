@@ -39,7 +39,8 @@ def checkWin(grid):
       for cell in condition:
          if(condition[0]==condition[1]==condition[2]):
             if(condition!=" "):
-               
+               return True
+            
 grid=initialiseBoard()
 while True:
    printGrid(grid)
