@@ -1,4 +1,4 @@
-while True:
+for i in range(10000):
     stars=10
     spaces=0
     num=0
