@@ -27,4 +27,3 @@ for turn in range(9):
    col=index%3
    grid[row][col] = "X"
    printGrid(grid)
-   index.is
