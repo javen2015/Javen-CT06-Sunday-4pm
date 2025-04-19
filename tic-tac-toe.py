@@ -37,7 +37,7 @@ def checkWin(grid):
    winningConditions=[[grid[0][0],grid[0][1],grid[0][1]],[grid[1][0],grid[1][1],grid[1][1]],[grid[2][0],grid[2][1],grid[2][1]],[grid[0][0],grid[1][0],grid[2][0]],[grid[0][1],grid[1][1],grid[2][1]],[grid[0][2],grid[1][2],grid[2][2]],[grid[0][2],grid[1][1],grid[2][0]],[grid[0][0],grid[1][1],grid[2][2]]]
    for condition in winningConditions:
       if(condition[0]==condition[1]==condition[2]):
-         if(condition!=" "):
+         if(condition[0]!=" "):
             return True       
    return False
 grid=initialiseBoard()
