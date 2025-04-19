@@ -46,3 +46,5 @@ grid=initialiseBoard()
 while True:
    printGrid(grid)
    getPlayerMove(grid)
+   if checkWin():
+      break
