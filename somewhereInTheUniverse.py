@@ -1,2 +1,2 @@
-import time as t
+import time
 print("Somewhere In The Universe...")
