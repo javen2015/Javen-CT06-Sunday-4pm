@@ -31,7 +31,7 @@ def getPlayerMove(grid,current_player):
             grid[row][col] = "X"
             break
          else:
-            print("Please key i your choice again as this spot is taken.")
+            print("Please key in your choice again as this spot is taken.")
 
 def checkWin(grid):
    winningConditions=[[grid[0][0],grid[0][1],grid[0][1]],[grid[1][0],grid[1][1],grid[1][1]],[grid[2][0],grid[2][1],grid[2][1]],[grid[0][0],grid[1][0],grid[2][0]],[grid[0][1],grid[1][1],grid[2][1]],[grid[0][2],grid[1][2],grid[2][2]],[grid[0][2],grid[1][1],grid[2][0]],[grid[0][0],grid[1][1],grid[2][2]]]
