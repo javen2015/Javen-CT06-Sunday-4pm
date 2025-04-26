@@ -42,7 +42,7 @@ def checkWin(grid):
    return False
 def check_full():
    row2=0
-   
+   col2=0
 
 grid=initialiseBoard()
 current_number=0
