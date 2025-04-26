@@ -64,5 +64,5 @@ while True:
       printGrid(grid)
    if check_full():
       print("Draw")
-      
+      printGrid(grid)
       break
