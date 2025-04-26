@@ -17,7 +17,7 @@ def printGrid(grid):
             print(" | "+str(cellnumber)+" ",end="")
          cellnumber+=1
       print("\n---------------")
-def getPlayerMove(grid):
+def getPlayerMove(grid,cu):
    # questions = ["Player 1(X)","Player 2(O)"]
    while True:
       userChoice = input("Player 1 please key in your choice.")
