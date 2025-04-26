@@ -1,7 +1,7 @@
 import time
 stars=10
 num=2
-spaces=10
+spaces=7
 for i in range(10):
     for i in range(stars):
         print(' '* (stars - i), '*' * num)
