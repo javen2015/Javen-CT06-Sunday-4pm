@@ -54,6 +54,7 @@ def check_full():
             count=0
          else:
             count+=1
+         co2+=1
 
 
 grid=initialiseBoard()
