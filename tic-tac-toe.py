@@ -45,7 +45,7 @@ def check_full():
       for col in range(3):
          if(grid[row][col]==" "):
             return False
-   
+   return True
 
 
 grid=initialiseBoard()
