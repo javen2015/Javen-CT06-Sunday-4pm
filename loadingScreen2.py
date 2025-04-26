@@ -7,8 +7,8 @@ for i in range(100):
         print(' '* (stars - i), '*' * num)
         num=num+2
         spaces=spaces+1
-        time.sleep(0.05)
-    num=7
+        time.sleep(0.01)
+    num=10
     for i in range(stars):
         print(' '* (stars + i), '*' * num)
         num=num-2
