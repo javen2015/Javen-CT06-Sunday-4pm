@@ -1,6 +1,6 @@
 import time
-stars=0
-num=0
+stars=10
+num=1
 spaces=10
 for i in range(10):
     for i in range(stars):
