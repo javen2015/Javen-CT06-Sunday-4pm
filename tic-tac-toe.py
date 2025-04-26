@@ -48,6 +48,8 @@ current_player="X"
 while True:
    if current_number%2==0:
       current_player="X"
+   else:
+      current_player=
    printGrid(grid)
    getPlayerMove(grid)
    if checkWin(grid):
