@@ -43,7 +43,7 @@ def checkWin(grid):
 
 
 grid=initialiseBoard()
-
+current_player="X"
 while True:
    printGrid(grid)
    getPlayerMove(grid)
