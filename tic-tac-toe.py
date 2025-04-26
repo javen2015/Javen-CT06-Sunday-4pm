@@ -51,6 +51,7 @@ def check_full():
       else:
          if count ==3:
             row2+=1
+            count=0
          else:
             count+=1
 
