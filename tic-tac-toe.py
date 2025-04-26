@@ -51,7 +51,8 @@ def check_full():
       else:
          if count ==3:
             row2+=1
-            
+         else:
+            count+=1
 
 
 grid=initialiseBoard()
