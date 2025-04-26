@@ -1,5 +1,5 @@
 import time
-stars=100
+stars=50
 num=2
 spaces=10
 for i in range(100):
