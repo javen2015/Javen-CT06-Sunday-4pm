@@ -44,6 +44,7 @@ def check_full():
    row2=0
    col2=0
    count=0
+   count2=0
    for i in range(9):
       if grid[row2][col2]==" ":
          return False
@@ -54,6 +55,7 @@ def check_full():
             count=0
          else:
             count+=1
+         
          col2+=1
 
 
