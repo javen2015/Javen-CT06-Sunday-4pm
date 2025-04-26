@@ -55,7 +55,9 @@ def check_full():
             count=0
          else:
             count+=1
-         
+         if count2 == 3:
+            col2=0
+            
          col2+=1
 
 
