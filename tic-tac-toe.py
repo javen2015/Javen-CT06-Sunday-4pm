@@ -43,12 +43,15 @@ def checkWin(grid):
 def check_full():
    row2=0
    col2=0
+   count=0
    for i in range(9):
       if grid[row2][col2]==" ":
          return False
          break
       else:
-         row2
+         if count ==3:
+            row2+=1
+            
 
 
 grid=initialiseBoard()
