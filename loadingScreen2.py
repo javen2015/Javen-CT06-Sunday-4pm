@@ -2,7 +2,7 @@ import time
 stars=10
 num=2
 spaces=10
-for i in range(10):
+for i in range(100):
     for i in range(stars):
         print(' '* (stars - i), '*' * num)
         num=num+2
