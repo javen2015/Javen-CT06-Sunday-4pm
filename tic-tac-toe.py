@@ -44,6 +44,7 @@ def checkWin(grid):
 
 grid=initialiseBoard()
 current_number=0
+current_player="X"
 while True:
    if current_number%2==0:
       current_player="X"
