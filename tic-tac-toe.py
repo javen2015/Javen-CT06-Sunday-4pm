@@ -51,7 +51,7 @@ while True:
    else:
       current_player="O"
    printGrid(grid)
-   getPlayerMove(grid,current)
+   getPlayerMove(grid,current_player)
    if checkWin(grid):
       print("Win")
       printGrid(grid)
