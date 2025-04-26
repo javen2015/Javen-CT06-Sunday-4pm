@@ -18,7 +18,7 @@ def printGrid(grid):
          cellnumber+=1
       print("\n---------------")
 def getPlayerMove(grid,current_player):
-   # questions = ["Player 1(X)","Player 2(O)"]
+   questions = ["Player 1(X)","Player 2(O)"]
    while True:
       userChoice = input("Player 1 please key in your choice.")
       if (userChoice.isdigit()==False or int(userChoice)<1 or int(userChoice)>9):
