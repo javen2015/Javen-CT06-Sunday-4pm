@@ -62,4 +62,6 @@ while True:
    if checkWin(grid):
       print("Win")
       printGrid(grid)
+   if check_full():
+      print
       break
