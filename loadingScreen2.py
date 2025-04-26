@@ -12,5 +12,5 @@ for i in range(10):
     for i in range(stars):
         print(' '* (stars + i), '*' * num)
         num=num-2
-        spaces=spaces-1
+        spaces=spaces-2
         time.sleep(0.01)
