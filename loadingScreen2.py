@@ -1,4 +1,6 @@
 import time
+stars=0
+
 for i in range(10):
     for i in range(stars):
         print(' '* (stars - i), '*' * num)
