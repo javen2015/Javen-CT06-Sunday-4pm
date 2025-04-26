@@ -20,7 +20,7 @@ def printGrid(grid):
 def getPlayerMove(grid,current_player):
    questions = ["Player 1(X)","Player 2(O)"]
    while True:
-      userChoice = input("Player"+" please key in your choice.")
+      userChoice = input("Player "+current_player+" please key in your choice.")
       if (userChoice.isdigit()==False or int(userChoice)<1 or int(userChoice)>9):
          print("Please key in a valid number.")
       else:
