@@ -28,7 +28,7 @@ def getPlayerMove(grid,current_player):
          row=index//3
          col=index%3
          if(grid[row][col]==" "):
-            grid[row][col] = "X"
+            grid[row][col] = current_player
             break
          else:
             print("Please key in your choice again as this spot is taken.")
