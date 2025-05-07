@@ -1,1 +1,1 @@
-brawler=int(input("Choose your brawler!!!"))
+brawler=int(input("Choose your brawler!!! Pick a number between 1 and"))
