@@ -15,3 +15,30 @@
 # The final character must be a capital letter (A–Z).
 
 # If the registration ID is valid, return "Valid"; otherwise, return "Invalid".
+
+# Test Case 1
+# Input: AB123C
+# Output: Valid
+
+# Test Case 2
+# Input: XZ7890Z
+# Output: Valid
+
+# Test Case 3
+# Input: A123BC
+# Output: Invalid (only one starting letter)
+
+# Test Case 4
+# Input: QW12F
+# Output: Invalid (only two digits)
+
+# Expected Skills Tested:
+# String indexing
+
+# str.isalpha(), str.isdigit(), str.isupper()
+
+# Length checking
+
+# Logical conditions
+
+# Would you like the code answer as well for this sample test?
