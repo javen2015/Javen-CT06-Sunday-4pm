@@ -1,1 +1,1 @@
-carNum=input
+carNum=input("")
