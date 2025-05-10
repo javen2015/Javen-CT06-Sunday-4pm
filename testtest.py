@@ -6,4 +6,4 @@ else:
 if condition:
     print("Valid")
 else:
-    print("I")
+    print("Invalid")
