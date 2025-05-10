@@ -1,2 +1,2 @@
 carNum=input("")
-condir
+condition=False
