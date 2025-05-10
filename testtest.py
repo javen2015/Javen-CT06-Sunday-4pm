@@ -4,4 +4,6 @@ if carNum[0].isalpha and carNum[0].isupper:
 else:
     condition=False
 if condition:
-    
+    print("Valid")
+else:
+    print("I")
