@@ -1,1 +1,1 @@
-# rmb to use .isalpha()
+# rmb to use .isalpha() the brackets!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
