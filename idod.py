@@ -7,3 +7,5 @@ if len(carNum)==6:
                 condition=True
 if condition:
     print("Valid")
+else:
+    print("Invalid")
