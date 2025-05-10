@@ -6,4 +6,4 @@ if len(carNum)==6:
             if carNum[5].isalpha():
                 condition=True
 if condition:
-    
+    print("Valid")
